@@ -7,5 +7,5 @@
 
 /// リザードン
 final class Charizard: Pokemon {
-
+    // なんらかの処理
 }

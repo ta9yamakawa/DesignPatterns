@@ -26,13 +26,19 @@ final class StrategyViewController: UIViewController {
 
         fly()
     }
+
+
+    @IBAction private func didTapBackButton(_ sender: Any) {
+        dismiss(animated: true)
+    }
 }
 
 // MARK: Private Methods
 private extension StrategyViewController {
-    /// それぞれに飛行タイプを指定
+    /// それぞれのポケモンに飛行タイプを指定
     func setup() {
         pikachu.setFlyType(with: .noFly)
+//        pikachu.setFlyType(with: .ballon)
         charizard.setFlyType()
     }
 
@@ -41,4 +47,6 @@ private extension StrategyViewController {
         pikachu.fly()
         charizard.fly()
     }
+
+
 }

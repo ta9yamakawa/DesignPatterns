@@ -7,5 +7,5 @@
 
 /// ピカチュウ
 final class Pikachu: Pokemon {
-    
+    // なんらかの処理
 }

@@ -17,7 +17,6 @@ class Pokemon {
     }
 
     /// 飛行アクション
-    /// - Returns: FlyBehavior
     func fly() {
         guard let type = flyType else {
             fatalError("飛行タイプが設定されていません")

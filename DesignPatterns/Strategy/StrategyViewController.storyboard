@@ -29,6 +29,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="FYf-24-UZv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
