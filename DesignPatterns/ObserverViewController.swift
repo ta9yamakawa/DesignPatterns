@@ -14,10 +14,10 @@ final class ObserverViewController: UIViewController {
     private let subject = NetfilxSubject()
 
     /// John
-    private let john = John()
+    private var john: John?
 
     /// Paul
-    private let paul = Paul()
+    private var paul: Paul?
 
     /// 作品集
     private let titleMock = ["全裸監督", "ストレンジャー・シングス", "愛の不時着", "梨泰院クラス"]
@@ -36,19 +36,25 @@ private extension ObserverViewController {
 
     // MARK: John's Actions
     @IBAction func didTapJohnRegister(_ sender: Any) {
-        subject.add(observer: john)
+        john = John(with: subject)
     }
 
     @IBAction func didTapJohnRemove(_ sender: Any) {
-        subject.remove(observer: john)
+        guard let observer = john else {
+            return
+        }
+        subject.remove(observer: observer)
     }
 
     // MARK: Paul's Actions
     @IBAction func didTapPaulRegister(_ sender: Any) {
-        subject.add(observer: paul)
+        paul = Paul(with: subject)
     }
 
     @IBAction func didTapPaulRemove(_ sender: Any) {
-        subject.remove(observer: paul)
+        guard let observer = paul else {
+            return
+        }
+        subject.remove(observer: observer)
     }
 }

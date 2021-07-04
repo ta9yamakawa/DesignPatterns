@@ -10,6 +10,10 @@ final class John: Observer {
 
     var name = "John"
 
+    init(with subject: Subject) {
+        subject.add(observer: self)
+    }
+
     func update(with title: String, episode: Int) {
         print("John watched: \(title), episode: \(episode)")
     }
