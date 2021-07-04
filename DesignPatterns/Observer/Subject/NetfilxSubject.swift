@@ -8,7 +8,7 @@
 /// ネットフリックスのデータ
 final class NetfilxSubject: Subject {
     /// 購読者のリスト
-    var observers: [Observer] = []
+    private var observers: [Observer] = []
 
     /// 作品名
     private var title: String?
@@ -60,4 +60,3 @@ final class NetfilxSubject: Subject {
         notify()
     }
 }
-

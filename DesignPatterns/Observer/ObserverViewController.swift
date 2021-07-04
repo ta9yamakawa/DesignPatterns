@@ -28,6 +28,9 @@ private extension ObserverViewController {
 
     // MARK: Netflix Update
     @IBAction func didTapUpdateEpisode(_ sender: Any) {
+
+        print("New Episode Released！")
+
         // 今回は適当にエピソードを発行する
         let title = titleMock.randomElement() ?? "No Data"
         let episode = Int.random(in: 1..<10)
