@@ -10,6 +10,7 @@ import UIKit
 /// ObserverViewController
 final class ObserverViewController: UIViewController {
 
+    /// Subject
     private let subject = NetfilxSubject()
 
     /// John
@@ -20,11 +21,6 @@ final class ObserverViewController: UIViewController {
 
     /// 作品集
     private let titleMock = ["全裸監督", "ストレンジャー・シングス", "愛の不時着", "梨泰院クラス"]
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
 }
 
 // MARK: Private Methods

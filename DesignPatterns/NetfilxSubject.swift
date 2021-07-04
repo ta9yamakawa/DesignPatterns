@@ -1,5 +1,5 @@
 //
-//  NetfilxData.swift
+//  NetfilxSubject.swift
 //  DesignPatterns
 //
 //  Created by ta9yamakawa on 2021/07/04.

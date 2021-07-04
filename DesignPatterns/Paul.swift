@@ -7,6 +7,7 @@
 
 /// ジョン
 final class Paul: Observer {
+
     var name = "Paul"
 
     func update(with title: String, episode: Int) {
