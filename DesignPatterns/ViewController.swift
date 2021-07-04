@@ -21,5 +21,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapObserverButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "ObserverViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? ObserverViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 

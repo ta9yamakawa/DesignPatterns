@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctw-uQ-IZc">
-                                <rect key="frame" x="147" y="118" width="120" height="34"/>
+                                <rect key="frame" x="147" y="74" width="120" height="34"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="tLb-Um-fQ0"/>
@@ -28,12 +28,26 @@
                                     <action selector="didTapStrategyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V8p-zO-j6T"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjf-of-Oq2">
+                                <rect key="frame" x="147" y="128" width="120" height="34"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="uHV-VB-39E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Observer"/>
+                                <connections>
+                                    <action selector="didTapObserverButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="heE-NE-0li"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ctw-uQ-IZc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SvL-Pg-uon"/>
-                            <constraint firstItem="ctw-uQ-IZc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="ibi-xu-ylf"/>
+                            <constraint firstItem="sjf-of-Oq2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TY8-ig-Wqu"/>
+                            <constraint firstItem="ctw-uQ-IZc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ibi-xu-ylf"/>
+                            <constraint firstItem="sjf-of-Oq2" firstAttribute="top" secondItem="ctw-uQ-IZc" secondAttribute="bottom" constant="20" id="w9S-1Y-UhN"/>
                         </constraints>
                     </view>
                 </viewController>
