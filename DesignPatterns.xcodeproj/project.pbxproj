@@ -118,7 +118,7 @@
 				B077EB0C269181B000089303 /* Subject */,
 				B077EB0B269181A200089303 /* Observer */,
 			);
-			name = Observer;
+			path = Observer;
 			sourceTree = "<group>";
 		};
 		B077EB0B269181A200089303 /* Observer */ = {
@@ -128,7 +128,7 @@
 				B077EB0D269181ED00089303 /* John.swift */,
 				B077EB0F2691823F00089303 /* Paul.swift */,
 			);
-			name = Observer;
+			path = Observer;
 			sourceTree = "<group>";
 		};
 		B077EB0C269181B000089303 /* Subject */ = {
@@ -137,7 +137,7 @@
 				B077EB0726917FBD00089303 /* Subject.swift */,
 				B077EB122691837D00089303 /* NetfilxSubject.swift */,
 			);
-			name = Subject;
+			path = Subject;
 			sourceTree = "<group>";
 		};
 		B0A90A282684DB1E0001BBE8 = {
