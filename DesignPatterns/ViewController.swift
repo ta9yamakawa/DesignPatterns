@@ -29,5 +29,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapDecoratorButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "DecoratorViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? DecoratorViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 
