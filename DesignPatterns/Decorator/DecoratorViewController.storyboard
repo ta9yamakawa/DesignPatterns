@@ -22,7 +22,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="dAw-JW-y1a">
                                         <rect key="frame" x="0.0" y="0.0" width="193" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="玉子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6F-m5-djA">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="煮卵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6F-m5-djA">
                                                 <rect key="frame" x="0.0" y="0.0" width="104" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -70,6 +70,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="会計"/>
+                                <connections>
+                                    <action selector="didTapCalculateButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="vuI-RP-3fp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="俺のラーメン" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phr-Vu-nSq">
                                 <rect key="frame" x="134" y="94" width="146" height="29"/>
@@ -93,6 +96,11 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="mmx-pH-BZH" secondAttribute="bottom" constant="420" id="z7H-ge-GjD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="roastPorkSwitch" destination="Z6j-VH-zgn" id="tt6-3Y-PQF"/>
+                        <outlet property="seasonedEggSwitch" destination="CMm-xV-wdL" id="0Qa-w4-cxX"/>
+                        <outlet property="seaweedSwitch" destination="tsi-cq-CJt" id="pQa-8W-mSq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
