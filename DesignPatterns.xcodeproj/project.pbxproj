@@ -14,6 +14,14 @@
 		B077EB0E269181ED00089303 /* John.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB0D269181ED00089303 /* John.swift */; };
 		B077EB102691823F00089303 /* Paul.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB0F2691823F00089303 /* Paul.swift */; };
 		B077EB132691837D00089303 /* NetfilxSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB122691837D00089303 /* NetfilxSubject.swift */; };
+		B077EB1726937A3A00089303 /* DecoratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB1626937A3A00089303 /* DecoratorViewController.swift */; };
+		B077EB1926937A5A00089303 /* DecoratorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B077EB1826937A5A00089303 /* DecoratorViewController.storyboard */; };
+		B077EB1B26948E7B00089303 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB1A26948E7B00089303 /* Menu.swift */; };
+		B077EB1D26948ECC00089303 /* Ramen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB1C26948ECC00089303 /* Ramen.swift */; };
+		B077EB2026948FD600089303 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB1F26948FD600089303 /* Decorator.swift */; };
+		B077EB22269492FA00089303 /* SeasonedEgg.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB21269492FA00089303 /* SeasonedEgg.swift */; };
+		B077EB242694942D00089303 /* Seaweed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB232694942D00089303 /* Seaweed.swift */; };
+		B077EB262694947C00089303 /* RoastPork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB252694947C00089303 /* RoastPork.swift */; };
 		B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */; };
 		B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */; };
 		B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A382684DB1E0001BBE8 /* ViewController.swift */; };
@@ -59,6 +67,14 @@
 		B077EB0D269181ED00089303 /* John.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = John.swift; sourceTree = "<group>"; };
 		B077EB0F2691823F00089303 /* Paul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paul.swift; sourceTree = "<group>"; };
 		B077EB122691837D00089303 /* NetfilxSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxSubject.swift; sourceTree = "<group>"; };
+		B077EB1626937A3A00089303 /* DecoratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorViewController.swift; sourceTree = "<group>"; };
+		B077EB1826937A5A00089303 /* DecoratorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DecoratorViewController.storyboard; sourceTree = "<group>"; };
+		B077EB1A26948E7B00089303 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		B077EB1C26948ECC00089303 /* Ramen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ramen.swift; sourceTree = "<group>"; };
+		B077EB1F26948FD600089303 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		B077EB21269492FA00089303 /* SeasonedEgg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonedEgg.swift; sourceTree = "<group>"; };
+		B077EB232694942D00089303 /* Seaweed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seaweed.swift; sourceTree = "<group>"; };
+		B077EB252694947C00089303 /* RoastPork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoastPork.swift; sourceTree = "<group>"; };
 		B0A90A312684DB1E0001BBE8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +156,37 @@
 			path = Subject;
 			sourceTree = "<group>";
 		};
+		B077EB1526937A1800089303 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				B077EB1E26948FB100089303 /* Component */,
+				B077EB27269494CB00089303 /* Decorator */,
+				B077EB1826937A5A00089303 /* DecoratorViewController.storyboard */,
+				B077EB1626937A3A00089303 /* DecoratorViewController.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		B077EB1E26948FB100089303 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				B077EB1A26948E7B00089303 /* Menu.swift */,
+				B077EB1C26948ECC00089303 /* Ramen.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		B077EB27269494CB00089303 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				B077EB1F26948FD600089303 /* Decorator.swift */,
+				B077EB21269492FA00089303 /* SeasonedEgg.swift */,
+				B077EB232694942D00089303 /* Seaweed.swift */,
+				B077EB252694947C00089303 /* RoastPork.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
 		B0A90A282684DB1E0001BBE8 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +215,7 @@
 				B0A90A422684DB210001BBE8 /* Info.plist */,
 				B0A90A3F2684DB210001BBE8 /* LaunchScreen.storyboard */,
 				B0A90A3A2684DB1E0001BBE8 /* Main.storyboard */,
+				B077EB1526937A1800089303 /* Decorator */,
 				B077EB0026917D5100089303 /* Observer */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
 				B0A90A642684DC9B0001BBE8 /* Strategy */,
@@ -333,6 +381,7 @@
 				B0A90A412684DB210001BBE8 /* LaunchScreen.storyboard in Resources */,
 				B077EB0626917DA000089303 /* ObserverViewController.storyboard in Resources */,
 				B0A90A3E2684DB210001BBE8 /* Assets.xcassets in Resources */,
+				B077EB1926937A5A00089303 /* DecoratorViewController.storyboard in Resources */,
 				B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */,
 				B0A90A3C2684DB1E0001BBE8 /* Main.storyboard in Resources */,
 			);
@@ -360,13 +409,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A90A6F2684DE120001BBE8 /* FlyBalloon.swift in Sources */,
+				B077EB262694947C00089303 /* RoastPork.swift in Sources */,
 				B077EB0A269180D800089303 /* Observer.swift in Sources */,
 				B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */,
+				B077EB2026948FD600089303 /* Decorator.swift in Sources */,
 				B077EB0826917FBD00089303 /* Subject.swift in Sources */,
+				B077EB1726937A3A00089303 /* DecoratorViewController.swift in Sources */,
+				B077EB242694942D00089303 /* Seaweed.swift in Sources */,
 				B0A90A712684DE8D0001BBE8 /* FlyNoWay.swift in Sources */,
 				B077EB0E269181ED00089303 /* John.swift in Sources */,
 				B0A90A762684DF940001BBE8 /* FlyType.swift in Sources */,
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
+				B077EB1B26948E7B00089303 /* Menu.swift in Sources */,
 				B0A90A6A2684DD7A0001BBE8 /* FlyBehavior.swift in Sources */,
 				B0A90A7A2684E1BD0001BBE8 /* Charizard.swift in Sources */,
 				B077EB132691837D00089303 /* NetfilxSubject.swift in Sources */,
@@ -374,6 +428,8 @@
 				B0A90A742684DF690001BBE8 /* Pokemon.swift in Sources */,
 				B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */,
 				B0A90A6D2684DDD30001BBE8 /* FlyNormal.swift in Sources */,
+				B077EB1D26948ECC00089303 /* Ramen.swift in Sources */,
+				B077EB22269492FA00089303 /* SeasonedEgg.swift in Sources */,
 				B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */,
 				B077EB102691823F00089303 /* Paul.swift in Sources */,
 				B077EB0426917D8200089303 /* ObserverViewController.swift in Sources */,

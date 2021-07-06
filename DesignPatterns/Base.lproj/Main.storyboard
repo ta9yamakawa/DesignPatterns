@@ -40,12 +40,26 @@
                                     <action selector="didTapObserverButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="heE-NE-0li"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXn-JT-igm">
+                                <rect key="frame" x="147" y="182" width="120" height="34"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="X8x-le-6bG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Decorator"/>
+                                <connections>
+                                    <action selector="didTapDecoratorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gty-jZ-0bu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ctw-uQ-IZc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SvL-Pg-uon"/>
                             <constraint firstItem="sjf-of-Oq2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TY8-ig-Wqu"/>
+                            <constraint firstItem="HXn-JT-igm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WhV-bu-ywx"/>
+                            <constraint firstItem="HXn-JT-igm" firstAttribute="top" secondItem="sjf-of-Oq2" secondAttribute="bottom" constant="20" id="cU8-1B-fDs"/>
                             <constraint firstItem="ctw-uQ-IZc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ibi-xu-ylf"/>
                             <constraint firstItem="sjf-of-Oq2" firstAttribute="top" secondItem="ctw-uQ-IZc" secondAttribute="bottom" constant="20" id="w9S-1Y-UhN"/>
                         </constraints>
