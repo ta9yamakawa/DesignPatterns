@@ -239,12 +239,12 @@
 				B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */,
 				B0A90A3D2684DB210001BBE8 /* Assets.xcassets */,
 				B077EB1526937A1800089303 /* Decorator */,
+				B0E3AF322695FF6D00FE8B73 /* Factory */,
 				B0A90A422684DB210001BBE8 /* Info.plist */,
 				B0A90A3F2684DB210001BBE8 /* LaunchScreen.storyboard */,
 				B0A90A3A2684DB1E0001BBE8 /* Main.storyboard */,
 				B077EB0026917D5100089303 /* Observer */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
-				B0E3AF322695FF6D00FE8B73 /* Factory */,
 				B0A90A642684DC9B0001BBE8 /* Strategy */,
 				B0A90A382684DB1E0001BBE8 /* ViewController.swift */,
 			);
@@ -274,8 +274,8 @@
 			children = (
 				B0A90A6B2684DDB60001BBE8 /* Behaviors */,
 				B0A90A722684DF470001BBE8 /* Pokemon */,
-				B0A90A672684DD150001BBE8 /* StrategyViewController.swift */,
 				B0A90A7B2684E5680001BBE8 /* StrategyViewController.storyboard */,
+				B0A90A672684DD150001BBE8 /* StrategyViewController.swift */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";

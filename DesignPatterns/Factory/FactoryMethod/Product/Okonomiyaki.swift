@@ -5,7 +5,9 @@
 //  Created by ta9yamakawa on 2021/07/09.
 //
 
+/// お好み焼き
 protocol Okonomiyaki {
+    /// 品目
     var name: String { get set }
 
 }

@@ -5,6 +5,7 @@
 //  Created by ta9yamakawa on 2021/07/09.
 //
 
+/// お好み焼き店
 protocol OkonomiyakiStore {
     /// お好み焼きを作成
     /// - Parameter type: トッピング
@@ -12,14 +13,16 @@ protocol OkonomiyakiStore {
 }
 
 extension OkonomiyakiStore {
-    /// お好み焼き
+    /// 注文されたお好み焼きを焼き上げる
     /// - Parameter type: トッピング
-    func order(type: Topping) {
+    func order(type: Topping) -> Okonomiyaki {
 
         let okonomiyaki = create(type: type)
 
         okonomiyaki.prepare()
         okonomiyaki.mix()
         okonomiyaki.bake()
+
+        return okonomiyaki
     }
 }
