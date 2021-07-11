@@ -7,6 +7,11 @@
 
 /// 関西風お好み焼き専門店
 class KansaiOkonimiyakiStore: OkonomiyakiStore {
+
+    // Abstract Factoryで使用
+    /// Factory
+    let factory = KansaiOkonomiyakiIngredientFactory()
+
     func create(type: Topping) -> Okonomiyaki {
         switch type {
         case .mix:
