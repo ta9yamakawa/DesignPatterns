@@ -10,7 +10,7 @@ class CheeseOkonomiyaki: Okonomiyaki2 {
 
     var sauce: Sauce?
 
-    var factory: OkonomiyakiIngredientFactory
+    private var factory: OkonomiyakiIngredientFactory
 
     init(factory: OkonomiyakiIngredientFactory) {
         self.factory = factory

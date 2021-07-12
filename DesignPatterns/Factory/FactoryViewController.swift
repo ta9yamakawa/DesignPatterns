@@ -19,8 +19,7 @@ final class FactoryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // どちらかを使用
-//        okonomiyakiStore = KansaiOkonimiyakiStore()
+        okonomiyakiStore = KansaiOkonimiyakiStore()
         okonomiyakiStore2 = KansaiOkonimiyakiStore2()
     }
 }
@@ -28,7 +27,7 @@ final class FactoryViewController: UIViewController {
 // MARK: Private Methods
 private extension FactoryViewController {
     @IBAction func didSwitchOkonomiyakiStyle(_ sender: Any) {
-//        okonomiyakiStore = okonomiyakiStyleSwitch.isOn ? KansaiOkonimiyakiStore() : HiroshimaOkonomiyakiStore()
+        okonomiyakiStore = okonomiyakiStyleSwitch.isOn ? KansaiOkonimiyakiStore() : HiroshimaOkonomiyakiStore()
         okonomiyakiStore2 = okonomiyakiStyleSwitch.isOn ? KansaiOkonimiyakiStore2() : HiroshimaOkonomiyakiStore2()
     }
 
@@ -47,6 +46,7 @@ private extension FactoryViewController {
     /// お好み焼きを注文
     /// - Parameter topping: トッピング
     func order(with topping: Topping) {
+        // どちらかを使用する
 //        guard let store = okonomiyakiStore else {
         guard let store = okonomiyakiStore2 else {
             return
