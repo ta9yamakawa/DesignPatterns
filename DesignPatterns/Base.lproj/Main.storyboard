@@ -53,13 +53,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1b-HU-42F">
-                                <rect key="frame" x="137" y="236" width="140" height="34"/>
+                                <rect key="frame" x="147" y="236" width="120" height="34"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="z8t-ZN-nGf"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="z8t-ZN-nGf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Factory Method"/>
+                                <state key="normal" title="Factory"/>
                                 <connections>
                                     <action selector="didTapFactoryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o9o-yT-Avt"/>
                                 </connections>
