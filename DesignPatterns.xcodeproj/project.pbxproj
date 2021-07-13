@@ -40,6 +40,10 @@
 		B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A772684E0D70001BBE8 /* Pikachu.swift */; };
 		B0A90A7A2684E1BD0001BBE8 /* Charizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A792684E1BD0001BBE8 /* Charizard.swift */; };
 		B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A90A7B2684E5680001BBE8 /* StrategyViewController.storyboard */; };
+		B0CAA307269DE6E10088E054 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA306269DE6E10088E054 /* SingletonViewController.swift */; };
+		B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */; };
+		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
+		B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */; };
 		B0E3AF372695FFA300FE8B73 /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF362695FFA300FE8B73 /* FactoryViewController.swift */; };
 		B0E3AF392695FFB500FE8B73 /* FactoryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E3AF382695FFB500FE8B73 /* FactoryViewController.storyboard */; };
 		B0E3AF3B2697520000FE8B73 /* OkonomiyakiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */; };
@@ -125,6 +129,10 @@
 		B0A90A772684E0D70001BBE8 /* Pikachu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pikachu.swift; sourceTree = "<group>"; };
 		B0A90A792684E1BD0001BBE8 /* Charizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charizard.swift; sourceTree = "<group>"; };
 		B0A90A7B2684E5680001BBE8 /* StrategyViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StrategyViewController.storyboard; sourceTree = "<group>"; };
+		B0CAA306269DE6E10088E054 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
+		B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton2ViewController.swift; sourceTree = "<group>"; };
+		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
+		B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Singleton2ViewController.storyboard; sourceTree = "<group>"; };
 		B0E3AF362695FFA300FE8B73 /* FactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
 		B0E3AF382695FFB500FE8B73 /* FactoryViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FactoryViewController.storyboard; sourceTree = "<group>"; };
 		B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiStore.swift; sourceTree = "<group>"; };
@@ -271,6 +279,10 @@
 				B0A90A3A2684DB1E0001BBE8 /* Main.storyboard */,
 				B077EB0026917D5100089303 /* Observer */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
+				B0CAA306269DE6E10088E054 /* SingletonViewController.swift */,
+				B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */,
+				B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */,
+				B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */,
 				B0A90A642684DC9B0001BBE8 /* Strategy */,
 				B0A90A382684DB1E0001BBE8 /* ViewController.swift */,
 			);
@@ -550,7 +562,9 @@
 				B0A90A3E2684DB210001BBE8 /* Assets.xcassets in Resources */,
 				B077EB1926937A5A00089303 /* DecoratorViewController.storyboard in Resources */,
 				B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */,
+				B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */,
 				B0A90A3C2684DB1E0001BBE8 /* Main.storyboard in Resources */,
+				B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +606,7 @@
 				B077EB0E269181ED00089303 /* John.swift in Sources */,
 				B0E3AF4F2697580B00FE8B73 /* KansaiCheeseOkonomiyaki.swift in Sources */,
 				B0A90A762684DF940001BBE8 /* FlyType.swift in Sources */,
+				B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */,
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
 				B0E3AF452697570400FE8B73 /* HiroshimaCheeseOkonomiyaki.swift in Sources */,
 				B0E3AF62269B57B000FE8B73 /* HiroshimaOkonomiyakiIngredientFactory.swift in Sources */,
@@ -611,6 +626,7 @@
 				B0E3AF5B269B56B200FE8B73 /* KansaiSauce.swift in Sources */,
 				B0A90A682684DD150001BBE8 /* StrategyViewController.swift in Sources */,
 				B0E3AF5D269B56D200FE8B73 /* HiroshimaSauce.swift in Sources */,
+				B0CAA307269DE6E10088E054 /* SingletonViewController.swift in Sources */,
 				B0A90A742684DF690001BBE8 /* Pokemon.swift in Sources */,
 				B0E3AF69269B5D5500FE8B73 /* MentaikoOkonomiyaki.swift in Sources */,
 				B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */,
