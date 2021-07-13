@@ -45,5 +45,21 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapSingletonButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "SingletonViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? SingletonViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
+
+    @IBAction func didTapSingleton2Button(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Singleton2ViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? Singleton2ViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 
