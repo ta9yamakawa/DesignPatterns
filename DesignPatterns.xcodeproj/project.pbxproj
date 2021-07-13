@@ -274,15 +274,11 @@
 			children = (
 				B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */,
 				B0A90A3D2684DB210001BBE8 /* Assets.xcassets */,
-				B077EB1526937A1800089303 /* Decorator */,
-				B0E3AF322695FF6D00FE8B73 /* Factory */,
 				B0A90A422684DB210001BBE8 /* Info.plist */,
 				B0A90A3F2684DB210001BBE8 /* LaunchScreen.storyboard */,
 				B0A90A3A2684DB1E0001BBE8 /* Main.storyboard */,
-				B077EB0026917D5100089303 /* Observer */,
+				B0CAA311269E02E00088E054 /* Patterns1 */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
-				B0CAA30E269DEEA40088E054 /* Singleton */,
-				B0A90A642684DC9B0001BBE8 /* Strategy */,
 				B0A90A382684DB1E0001BBE8 /* ViewController.swift */,
 			);
 			path = DesignPatterns;
@@ -359,6 +355,18 @@
 				B0CAA306269DE6E10088E054 /* SingletonViewController.swift */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		B0CAA311269E02E00088E054 /* Patterns1 */ = {
+			isa = PBXGroup;
+			children = (
+				B077EB1526937A1800089303 /* Decorator */,
+				B0E3AF322695FF6D00FE8B73 /* Factory */,
+				B077EB0026917D5100089303 /* Observer */,
+				B0CAA30E269DEEA40088E054 /* Singleton */,
+				B0A90A642684DC9B0001BBE8 /* Strategy */,
+			);
+			path = Patterns1;
 			sourceTree = "<group>";
 		};
 		B0E3AF322695FF6D00FE8B73 /* Factory */ = {
