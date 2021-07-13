@@ -37,5 +37,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapFactoryButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "FactoryViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? FactoryViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Factory View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="FactoryViewController" customModule="DesignPatterns" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お好み焼き" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBx-2O-RHO">
+                                <rect key="frame" x="151.5" y="94" width="111.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="lH1-jz-08n">
+                                <rect key="frame" x="129.5" y="170.5" width="155" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="広島" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtr-pF-dJ4">
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jsf-ZO-YhO">
+                                        <rect key="frame" x="53" y="0.0" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="didSwitchOkonomiyakiStyle:" destination="Y6W-OH-hqX" eventType="valueChanged" id="QVJ-Xh-if7"/>
+                                        </connections>
+                                    </switch>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="関西" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Drh-tR-jQa">
+                                        <rect key="frame" x="114" y="0.0" width="41" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Ifb-gI-niw">
+                                <rect key="frame" x="115" y="251.5" width="184" height="138"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqp-KX-KQd">
+                                        <rect key="frame" x="0.0" y="0.0" width="184" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="ミックスお好み焼き"/>
+                                        <connections>
+                                            <action selector="didTapMixedButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="JmI-KP-Gtd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDS-E5-Hdl">
+                                        <rect key="frame" x="0.0" y="51" width="184" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="チーズお好み焼き"/>
+                                        <connections>
+                                            <action selector="didTapCheeseButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9DN-jZ-4fp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cie-CR-bdD">
+                                        <rect key="frame" x="0.0" y="102" width="184" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="明太お好み焼き"/>
+                                        <connections>
+                                            <action selector="didTapMentaikoButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cZO-Or-QEW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lH1-jz-08n" firstAttribute="top" secondItem="KBx-2O-RHO" secondAttribute="bottom" constant="50" id="2gR-6H-8fT"/>
+                            <constraint firstItem="KBx-2O-RHO" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="3Pi-g8-WPJ"/>
+                            <constraint firstItem="Ifb-gI-niw" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="GbI-ub-89H"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Ifb-gI-niw" secondAttribute="bottom" constant="20" id="LAg-mZ-Swz"/>
+                            <constraint firstItem="KBx-2O-RHO" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="Pip-7f-PAN"/>
+                            <constraint firstItem="lH1-jz-08n" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="SRU-lB-5PM"/>
+                            <constraint firstItem="Ifb-gI-niw" firstAttribute="top" secondItem="lH1-jz-08n" secondAttribute="bottom" constant="50" id="dVJ-69-JGH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="okonomiyakiStyleSwitch" destination="Jsf-ZO-YhO" id="ftb-Lt-5AN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="86"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
