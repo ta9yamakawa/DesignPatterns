@@ -44,6 +44,7 @@
 		B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */; };
 		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
 		B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */; };
+		B0CAA310269DEEE50088E054 /* PiggyBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA30F269DEEE50088E054 /* PiggyBank.swift */; };
 		B0E3AF372695FFA300FE8B73 /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF362695FFA300FE8B73 /* FactoryViewController.swift */; };
 		B0E3AF392695FFB500FE8B73 /* FactoryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E3AF382695FFB500FE8B73 /* FactoryViewController.storyboard */; };
 		B0E3AF3B2697520000FE8B73 /* OkonomiyakiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */; };
@@ -133,6 +134,7 @@
 		B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton2ViewController.swift; sourceTree = "<group>"; };
 		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
 		B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Singleton2ViewController.storyboard; sourceTree = "<group>"; };
+		B0CAA30F269DEEE50088E054 /* PiggyBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBank.swift; sourceTree = "<group>"; };
 		B0E3AF362695FFA300FE8B73 /* FactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
 		B0E3AF382695FFB500FE8B73 /* FactoryViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FactoryViewController.storyboard; sourceTree = "<group>"; };
 		B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiStore.swift; sourceTree = "<group>"; };
@@ -189,10 +191,10 @@
 		B077EB0026917D5100089303 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
-				B077EB0326917D8200089303 /* ObserverViewController.swift */,
-				B077EB0526917DA000089303 /* ObserverViewController.storyboard */,
-				B077EB0C269181B000089303 /* Subject */,
 				B077EB0B269181A200089303 /* Observer */,
+				B077EB0526917DA000089303 /* ObserverViewController.storyboard */,
+				B077EB0326917D8200089303 /* ObserverViewController.swift */,
+				B077EB0C269181B000089303 /* Subject */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -200,8 +202,8 @@
 		B077EB0B269181A200089303 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
-				B077EB09269180D800089303 /* Observer.swift */,
 				B077EB0D269181ED00089303 /* John.swift */,
+				B077EB09269180D800089303 /* Observer.swift */,
 				B077EB0F2691823F00089303 /* Paul.swift */,
 			);
 			path = Observer;
@@ -210,8 +212,8 @@
 		B077EB0C269181B000089303 /* Subject */ = {
 			isa = PBXGroup;
 			children = (
-				B077EB0726917FBD00089303 /* Subject.swift */,
 				B077EB122691837D00089303 /* NetfilxSubject.swift */,
+				B077EB0726917FBD00089303 /* Subject.swift */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
@@ -240,9 +242,9 @@
 			isa = PBXGroup;
 			children = (
 				B077EB1F26948FD600089303 /* Decorator.swift */,
+				B077EB252694947C00089303 /* RoastPork.swift */,
 				B077EB21269492FA00089303 /* SeasonedEgg.swift */,
 				B077EB232694942D00089303 /* Seaweed.swift */,
-				B077EB252694947C00089303 /* RoastPork.swift */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -279,10 +281,7 @@
 				B0A90A3A2684DB1E0001BBE8 /* Main.storyboard */,
 				B077EB0026917D5100089303 /* Observer */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
-				B0CAA306269DE6E10088E054 /* SingletonViewController.swift */,
-				B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */,
-				B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */,
-				B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */,
+				B0CAA30E269DEEA40088E054 /* Singleton */,
 				B0A90A642684DC9B0001BBE8 /* Strategy */,
 				B0A90A382684DB1E0001BBE8 /* ViewController.swift */,
 			);
@@ -321,9 +320,9 @@
 		B0A90A6B2684DDB60001BBE8 /* Behaviors */ = {
 			isa = PBXGroup;
 			children = (
+				B0A90A6E2684DE120001BBE8 /* FlyBalloon.swift */,
 				B0A90A692684DD7A0001BBE8 /* FlyBehavior.swift */,
 				B0A90A6C2684DDD30001BBE8 /* FlyNormal.swift */,
-				B0A90A6E2684DE120001BBE8 /* FlyBalloon.swift */,
 				B0A90A702684DE8D0001BBE8 /* FlyNoWay.swift */,
 			);
 			path = Behaviors;
@@ -332,10 +331,10 @@
 		B0A90A722684DF470001BBE8 /* Pokemon */ = {
 			isa = PBXGroup;
 			children = (
-				B0A90A732684DF690001BBE8 /* Pokemon.swift */,
+				B0A90A792684E1BD0001BBE8 /* Charizard.swift */,
 				B0A90A752684DF940001BBE8 /* FlyType.swift */,
 				B0A90A772684E0D70001BBE8 /* Pikachu.swift */,
-				B0A90A792684E1BD0001BBE8 /* Charizard.swift */,
+				B0A90A732684DF690001BBE8 /* Pokemon.swift */,
 			);
 			path = Pokemon;
 			sourceTree = "<group>";
@@ -343,11 +342,23 @@
 		B0CAA305269B64830088E054 /* Creator */ = {
 			isa = PBXGroup;
 			children = (
+				B0E3AF6F269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift */,
 				B0E3AF6D269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift */,
 				B0E3AF71269B603500FE8B73 /* OkonomiyakiStore2.swift */,
-				B0E3AF6F269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift */,
 			);
 			path = Creator;
+			sourceTree = "<group>";
+		};
+		B0CAA30E269DEEA40088E054 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAA30F269DEEE50088E054 /* PiggyBank.swift */,
+				B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */,
+				B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */,
+				B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */,
+				B0CAA306269DE6E10088E054 /* SingletonViewController.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 		B0E3AF322695FF6D00FE8B73 /* Factory */ = {
@@ -374,9 +385,9 @@
 		B0E3AF48269757A700FE8B73 /* Creator */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */,
-				B0E3AF4A269757D300FE8B73 /* KansaiOkonimiyakiStore.swift */,
 				B0E3AF402697553800FE8B73 /* HiroshimaOkonomiyakiStore.swift */,
+				B0E3AF4A269757D300FE8B73 /* KansaiOkonimiyakiStore.swift */,
+				B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */,
 			);
 			path = Creator;
 			sourceTree = "<group>";
@@ -384,9 +395,9 @@
 		B0E3AF49269757B200FE8B73 /* Hiroshima */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3AF422697565C00FE8B73 /* HiroshimaMixedOkonomiyaki.swift */,
 				B0E3AF442697570400FE8B73 /* HiroshimaCheeseOkonomiyaki.swift */,
 				B0E3AF462697572100FE8B73 /* HiroshimaMentaikoOkonomiyaki.swift */,
+				B0E3AF422697565C00FE8B73 /* HiroshimaMixedOkonomiyaki.swift */,
 			);
 			path = Hiroshima;
 			sourceTree = "<group>";
@@ -394,9 +405,9 @@
 		B0E3AF522697585400FE8B73 /* Kansai */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3AF4C269757FE00FE8B73 /* KansaiMixedOkonomiyaki.swift */,
 				B0E3AF4E2697580B00FE8B73 /* KansaiCheeseOkonomiyaki.swift */,
 				B0E3AF502697581500FE8B73 /* KansaiMentaikoOkonomiyaki.swift */,
+				B0E3AF4C269757FE00FE8B73 /* KansaiMixedOkonomiyaki.swift */,
 			);
 			path = Kansai;
 			sourceTree = "<group>";
@@ -404,9 +415,9 @@
 		B0E3AF532697587C00FE8B73 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3AF3C2697532E00FE8B73 /* Okonomiyaki.swift */,
-				B0E3AF522697585400FE8B73 /* Kansai */,
 				B0E3AF49269757B200FE8B73 /* Hiroshima */,
+				B0E3AF522697585400FE8B73 /* Kansai */,
+				B0E3AF3C2697532E00FE8B73 /* Okonomiyaki.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -435,9 +446,9 @@
 		B0E3AF63269B59E900FE8B73 /* IngredientFactory */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3AF56269B55DE00FE8B73 /* OkonomiyakiIngredientFactory.swift */,
-				B0E3AF5F269B575B00FE8B73 /* KansaiOkonomiyakiIngredientFactory.swift */,
 				B0E3AF61269B57B000FE8B73 /* HiroshimaOkonomiyakiIngredientFactory.swift */,
+				B0E3AF5F269B575B00FE8B73 /* KansaiOkonomiyakiIngredientFactory.swift */,
+				B0E3AF56269B55DE00FE8B73 /* OkonomiyakiIngredientFactory.swift */,
 			);
 			path = IngredientFactory;
 			sourceTree = "<group>";
@@ -445,10 +456,10 @@
 		B0E3AF6C269B5F8200FE8B73 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3AF64269B5A9400FE8B73 /* MixedOkonomiyaki.swift */,
-				B0E3AF6A269B5EEE00FE8B73 /* Okonomiyaki2.swift */,
 				B0E3AF66269B5D0600FE8B73 /* CheeseOkonomiyaki.swift */,
 				B0E3AF68269B5D5500FE8B73 /* MentaikoOkonomiyaki.swift */,
+				B0E3AF64269B5A9400FE8B73 /* MixedOkonomiyaki.swift */,
+				B0E3AF6A269B5EEE00FE8B73 /* Okonomiyaki2.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -603,6 +614,7 @@
 				B0A90A712684DE8D0001BBE8 /* FlyNoWay.swift in Sources */,
 				B0E3AF57269B55DE00FE8B73 /* OkonomiyakiIngredientFactory.swift in Sources */,
 				B0E3AF72269B603500FE8B73 /* OkonomiyakiStore2.swift in Sources */,
+				B0CAA310269DEEE50088E054 /* PiggyBank.swift in Sources */,
 				B077EB0E269181ED00089303 /* John.swift in Sources */,
 				B0E3AF4F2697580B00FE8B73 /* KansaiCheeseOkonomiyaki.swift in Sources */,
 				B0A90A762684DF940001BBE8 /* FlyType.swift in Sources */,
