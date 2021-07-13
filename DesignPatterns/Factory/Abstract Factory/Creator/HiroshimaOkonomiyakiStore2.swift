@@ -6,7 +6,7 @@
 //
 
 /// 広島風お好み焼き専門店2号店（Abstract Factory対応）
-class HiroshimaOkonomiyakiStore2: OkonomiyakiStore2 {
+final class HiroshimaOkonomiyakiStore2: OkonomiyakiStore2 {
     /// Factory
     private let factory = HiroshimaOkonomiyakiIngredientFactory()
 

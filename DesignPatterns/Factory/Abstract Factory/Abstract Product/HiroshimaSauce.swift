@@ -6,5 +6,5 @@
 //
 
 /// 広島風ソース
-class HiroshimaSauce: Sauce {
+final class HiroshimaSauce: Sauce {
 }

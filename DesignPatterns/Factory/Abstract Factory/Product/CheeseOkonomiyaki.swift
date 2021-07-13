@@ -5,7 +5,8 @@
 //  Created by ta9yamakawa on 2021/07/12.
 //
 
-class CheeseOkonomiyaki: Okonomiyaki2 {
+/// チーズお好み焼き
+final class CheeseOkonomiyaki: Okonomiyaki2 {
     var name: String = "チーズお好み焼き"
 
     var sauce: Sauce?

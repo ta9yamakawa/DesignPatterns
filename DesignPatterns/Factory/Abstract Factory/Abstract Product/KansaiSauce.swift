@@ -6,5 +6,5 @@
 //
 
 /// 関西風ソース
-class KansaiSauce: Sauce {
+final class KansaiSauce: Sauce {
 }
