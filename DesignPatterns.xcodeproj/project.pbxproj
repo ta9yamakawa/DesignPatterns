@@ -45,6 +45,8 @@
 		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
 		B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */; };
 		B0CAA310269DEEE50088E054 /* PiggyBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA30F269DEEE50088E054 /* PiggyBank.swift */; };
+		B0CAA31326A092380088E054 /* CommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA31226A092380088E054 /* CommandViewController.swift */; };
+		B0CAA31526A092410088E054 /* CommandViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA31426A092410088E054 /* CommandViewController.storyboard */; };
 		B0E3AF372695FFA300FE8B73 /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF362695FFA300FE8B73 /* FactoryViewController.swift */; };
 		B0E3AF392695FFB500FE8B73 /* FactoryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E3AF382695FFB500FE8B73 /* FactoryViewController.storyboard */; };
 		B0E3AF3B2697520000FE8B73 /* OkonomiyakiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */; };
@@ -135,6 +137,8 @@
 		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
 		B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Singleton2ViewController.storyboard; sourceTree = "<group>"; };
 		B0CAA30F269DEEE50088E054 /* PiggyBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBank.swift; sourceTree = "<group>"; };
+		B0CAA31226A092380088E054 /* CommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandViewController.swift; sourceTree = "<group>"; };
+		B0CAA31426A092410088E054 /* CommandViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CommandViewController.storyboard; sourceTree = "<group>"; };
 		B0E3AF362695FFA300FE8B73 /* FactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
 		B0E3AF382695FFB500FE8B73 /* FactoryViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FactoryViewController.storyboard; sourceTree = "<group>"; };
 		B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiStore.swift; sourceTree = "<group>"; };
@@ -278,6 +282,7 @@
 				B0A90A3F2684DB210001BBE8 /* LaunchScreen.storyboard */,
 				B0A90A3A2684DB1E0001BBE8 /* Main.storyboard */,
 				B0CAA311269E02E00088E054 /* Patterns1 */,
+				B0CAA31626A092BF0088E054 /* Patterns2 */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
 				B0A90A382684DB1E0001BBE8 /* ViewController.swift */,
 			);
@@ -367,6 +372,23 @@
 				B0A90A642684DC9B0001BBE8 /* Strategy */,
 			);
 			path = Patterns1;
+			sourceTree = "<group>";
+		};
+		B0CAA31626A092BF0088E054 /* Patterns2 */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAA31726A092C80088E054 /* Command */,
+			);
+			path = Patterns2;
+			sourceTree = "<group>";
+		};
+		B0CAA31726A092C80088E054 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAA31226A092380088E054 /* CommandViewController.swift */,
+				B0CAA31426A092410088E054 /* CommandViewController.storyboard */,
+			);
+			path = Command;
 			sourceTree = "<group>";
 		};
 		B0E3AF322695FF6D00FE8B73 /* Factory */ = {
@@ -581,6 +603,7 @@
 				B0A90A3E2684DB210001BBE8 /* Assets.xcassets in Resources */,
 				B077EB1926937A5A00089303 /* DecoratorViewController.storyboard in Resources */,
 				B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */,
+				B0CAA31526A092410088E054 /* CommandViewController.storyboard in Resources */,
 				B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */,
 				B0A90A3C2684DB1E0001BBE8 /* Main.storyboard in Resources */,
 				B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */,
@@ -642,6 +665,7 @@
 				B0A90A7A2684E1BD0001BBE8 /* Charizard.swift in Sources */,
 				B0E3AF472697572100FE8B73 /* HiroshimaMentaikoOkonomiyaki.swift in Sources */,
 				B077EB132691837D00089303 /* NetfilxSubject.swift in Sources */,
+				B0CAA31326A092380088E054 /* CommandViewController.swift in Sources */,
 				B0E3AF432697565C00FE8B73 /* HiroshimaMixedOkonomiyaki.swift in Sources */,
 				B0E3AF5B269B56B200FE8B73 /* KansaiSauce.swift in Sources */,
 				B0A90A682684DD150001BBE8 /* StrategyViewController.swift in Sources */,
