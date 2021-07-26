@@ -1,12 +1,12 @@
 //
-//  FireballCommand.swift
+//  JumpCommand.swift
 //  DesignPatterns
 //
 //  Created by ta9yamakawa on 2021/07/16.
 //
 
-/// ダッシュコマンド
-final class FireballCommand: Command {
+/// パンチコマンド
+final class JumpCommand: Command {
     var receiver: Receiver
 
     init(receiver: Receiver) {
@@ -14,7 +14,7 @@ final class FireballCommand: Command {
     }
 
     func execute() {
-        receiver.action("ファイアボール")
-        print("\(receiver.name)「ボッ...!」")
+        receiver.action("ジャンプ")
+        print("\(receiver.name)「プーン」")
     }
 }

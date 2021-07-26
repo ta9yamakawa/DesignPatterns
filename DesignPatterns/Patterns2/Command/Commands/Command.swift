@@ -7,6 +7,8 @@
 
 /// Commandプロトコル
 protocol Command: AnyObject {
+    /// レシーバー
+    var receiver: Receiver { get }
     /// 実行
     func execute()
 }

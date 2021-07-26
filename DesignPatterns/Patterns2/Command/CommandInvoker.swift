@@ -7,6 +7,7 @@
 
 /// Command Invoker
 final class CommandInvoker {
+    /// コマンド配列
     private var commands: [Command] = []
 
     /// コマンドを追加する
@@ -15,7 +16,8 @@ final class CommandInvoker {
         commands.append(command)
     }
 
-    func removeCommands() {
+    /// コマンドを全て削除する
+    func removeAllCommands() {
         commands.removeAll()
     }
 
