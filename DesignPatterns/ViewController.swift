@@ -61,5 +61,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapCommandButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "CommandViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? CommandViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 

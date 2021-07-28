@@ -88,6 +88,18 @@
                                     <action selector="didTapSingleton2Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vNH-qH-ffM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSn-GA-FLC">
+                                <rect key="frame" x="147" y="344" width="120" height="34"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="zKe-lw-wX7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Command"/>
+                                <connections>
+                                    <action selector="didTapCommandButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OOa-xl-TMe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -103,6 +115,8 @@
                             <constraint firstItem="J7X-u2-wmx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="f0g-J1-Efi"/>
                             <constraint firstItem="ctw-uQ-IZc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ibi-xu-ylf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MGr-GN-FLG" secondAttribute="trailing" constant="80" id="myq-eN-6m4"/>
+                            <constraint firstItem="mSn-GA-FLC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="scj-uS-w3r"/>
+                            <constraint firstItem="mSn-GA-FLC" firstAttribute="top" secondItem="J7X-u2-wmx" secondAttribute="bottom" constant="20" id="uzP-cE-VyC"/>
                             <constraint firstItem="sjf-of-Oq2" firstAttribute="top" secondItem="ctw-uQ-IZc" secondAttribute="bottom" constant="20" id="w9S-1Y-UhN"/>
                             <constraint firstItem="MGr-GN-FLG" firstAttribute="leading" secondItem="J7X-u2-wmx" secondAttribute="trailing" constant="14" id="wbh-2K-ckB"/>
                             <constraint firstItem="o1b-HU-42F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ybk-4T-UDh"/>

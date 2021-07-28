@@ -22,6 +22,7 @@
 		B077EB22269492FA00089303 /* SeasonedEgg.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB21269492FA00089303 /* SeasonedEgg.swift */; };
 		B077EB242694942D00089303 /* Seaweed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB232694942D00089303 /* Seaweed.swift */; };
 		B077EB262694947C00089303 /* RoastPork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB252694947C00089303 /* RoastPork.swift */; };
+		B08AEC7426AF1A9F0098A564 /* Luigi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08AEC7326AF1A9F0098A564 /* Luigi.swift */; };
 		B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */; };
 		B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */; };
 		B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A382684DB1E0001BBE8 /* ViewController.swift */; };
@@ -45,6 +46,14 @@
 		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
 		B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */; };
 		B0CAA310269DEEE50088E054 /* PiggyBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA30F269DEEE50088E054 /* PiggyBank.swift */; };
+		B0CAA31326A092380088E054 /* CommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA31226A092380088E054 /* CommandViewController.swift */; };
+		B0CAA31526A092410088E054 /* CommandViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA31426A092410088E054 /* CommandViewController.storyboard */; };
+		B0CAA31926A0963B0088E054 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA31826A0963B0088E054 /* Command.swift */; };
+		B0CAA31B26A096860088E054 /* JumpCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA31A26A096860088E054 /* JumpCommand.swift */; };
+		B0CAA31D26A096D70088E054 /* FireballCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA31C26A096D70088E054 /* FireballCommand.swift */; };
+		B0CAA32026A0974A0088E054 /* CommandInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA31F26A0974A0088E054 /* CommandInvoker.swift */; };
+		B0CAA32826AF10FF0088E054 /* Mario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA32726AF10FF0088E054 /* Mario.swift */; };
+		B0CAA32A26AF12630088E054 /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA32926AF12630088E054 /* Receiver.swift */; };
 		B0E3AF372695FFA300FE8B73 /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF362695FFA300FE8B73 /* FactoryViewController.swift */; };
 		B0E3AF392695FFB500FE8B73 /* FactoryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E3AF382695FFB500FE8B73 /* FactoryViewController.storyboard */; };
 		B0E3AF3B2697520000FE8B73 /* OkonomiyakiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */; };
@@ -71,6 +80,7 @@
 		B0E3AF6E269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF6D269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift */; };
 		B0E3AF70269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF6F269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift */; };
 		B0E3AF72269B603500FE8B73 /* OkonomiyakiStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF71269B603500FE8B73 /* OkonomiyakiStore2.swift */; };
+		B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5245526B1B5C400BBBA94 /* CommandType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +116,7 @@
 		B077EB21269492FA00089303 /* SeasonedEgg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonedEgg.swift; sourceTree = "<group>"; };
 		B077EB232694942D00089303 /* Seaweed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seaweed.swift; sourceTree = "<group>"; };
 		B077EB252694947C00089303 /* RoastPork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoastPork.swift; sourceTree = "<group>"; };
+		B08AEC7326AF1A9F0098A564 /* Luigi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luigi.swift; sourceTree = "<group>"; };
 		B0A90A312684DB1E0001BBE8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +146,14 @@
 		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
 		B0CAA30C269DE74B0088E054 /* Singleton2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Singleton2ViewController.storyboard; sourceTree = "<group>"; };
 		B0CAA30F269DEEE50088E054 /* PiggyBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBank.swift; sourceTree = "<group>"; };
+		B0CAA31226A092380088E054 /* CommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandViewController.swift; sourceTree = "<group>"; };
+		B0CAA31426A092410088E054 /* CommandViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CommandViewController.storyboard; sourceTree = "<group>"; };
+		B0CAA31826A0963B0088E054 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		B0CAA31A26A096860088E054 /* JumpCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpCommand.swift; sourceTree = "<group>"; };
+		B0CAA31C26A096D70088E054 /* FireballCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireballCommand.swift; sourceTree = "<group>"; };
+		B0CAA31F26A0974A0088E054 /* CommandInvoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandInvoker.swift; sourceTree = "<group>"; };
+		B0CAA32726AF10FF0088E054 /* Mario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario.swift; sourceTree = "<group>"; };
+		B0CAA32926AF12630088E054 /* Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
 		B0E3AF362695FFA300FE8B73 /* FactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
 		B0E3AF382695FFB500FE8B73 /* FactoryViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FactoryViewController.storyboard; sourceTree = "<group>"; };
 		B0E3AF3A2697520000FE8B73 /* OkonomiyakiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiStore.swift; sourceTree = "<group>"; };
@@ -161,6 +180,7 @@
 		B0E3AF6D269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KansaiOkonomiyakiStore2.swift; sourceTree = "<group>"; };
 		B0E3AF6F269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiroshimaOkonomiyakiStore2.swift; sourceTree = "<group>"; };
 		B0E3AF71269B603500FE8B73 /* OkonomiyakiStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiStore2.swift; sourceTree = "<group>"; };
+		B0E5245526B1B5C400BBBA94 /* CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +269,16 @@
 			path = Decorator;
 			sourceTree = "<group>";
 		};
+		B08AEC7526AF1ABB0098A564 /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				B08AEC7326AF1A9F0098A564 /* Luigi.swift */,
+				B0CAA32726AF10FF0088E054 /* Mario.swift */,
+				B0CAA32926AF12630088E054 /* Receiver.swift */,
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
 		B0A90A282684DB1E0001BBE8 = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +308,7 @@
 				B0A90A3F2684DB210001BBE8 /* LaunchScreen.storyboard */,
 				B0A90A3A2684DB1E0001BBE8 /* Main.storyboard */,
 				B0CAA311269E02E00088E054 /* Patterns1 */,
+				B0CAA31626A092BF0088E054 /* Patterns2 */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
 				B0A90A382684DB1E0001BBE8 /* ViewController.swift */,
 			);
@@ -367,6 +398,37 @@
 				B0A90A642684DC9B0001BBE8 /* Strategy */,
 			);
 			path = Patterns1;
+			sourceTree = "<group>";
+		};
+		B0CAA31626A092BF0088E054 /* Patterns2 */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAA31726A092C80088E054 /* Command */,
+			);
+			path = Patterns2;
+			sourceTree = "<group>";
+		};
+		B0CAA31726A092C80088E054 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAA31F26A0974A0088E054 /* CommandInvoker.swift */,
+				B0CAA31E26A097300088E054 /* Commands */,
+				B0CAA31426A092410088E054 /* CommandViewController.storyboard */,
+				B0CAA31226A092380088E054 /* CommandViewController.swift */,
+				B08AEC7526AF1ABB0098A564 /* Receiver */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		B0CAA31E26A097300088E054 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAA31826A0963B0088E054 /* Command.swift */,
+				B0E5245526B1B5C400BBBA94 /* CommandType.swift */,
+				B0CAA31C26A096D70088E054 /* FireballCommand.swift */,
+				B0CAA31A26A096860088E054 /* JumpCommand.swift */,
+			);
+			path = Commands;
 			sourceTree = "<group>";
 		};
 		B0E3AF322695FF6D00FE8B73 /* Factory */ = {
@@ -581,6 +643,7 @@
 				B0A90A3E2684DB210001BBE8 /* Assets.xcassets in Resources */,
 				B077EB1926937A5A00089303 /* DecoratorViewController.storyboard in Resources */,
 				B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */,
+				B0CAA31526A092410088E054 /* CommandViewController.storyboard in Resources */,
 				B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */,
 				B0A90A3C2684DB1E0001BBE8 /* Main.storyboard in Resources */,
 				B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */,
@@ -614,12 +677,14 @@
 				B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */,
 				B0E3AF512697581500FE8B73 /* KansaiMentaikoOkonomiyaki.swift in Sources */,
 				B077EB2026948FD600089303 /* Decorator.swift in Sources */,
+				B0CAA31D26A096D70088E054 /* FireballCommand.swift in Sources */,
 				B0E3AF59269B568300FE8B73 /* Sauce.swift in Sources */,
 				B077EB0826917FBD00089303 /* Subject.swift in Sources */,
 				B0E3AF6E269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift in Sources */,
 				B077EB1726937A3A00089303 /* DecoratorViewController.swift in Sources */,
 				B077EB242694942D00089303 /* Seaweed.swift in Sources */,
 				B0A90A712684DE8D0001BBE8 /* FlyNoWay.swift in Sources */,
+				B08AEC7426AF1A9F0098A564 /* Luigi.swift in Sources */,
 				B0E3AF57269B55DE00FE8B73 /* OkonomiyakiIngredientFactory.swift in Sources */,
 				B0E3AF72269B603500FE8B73 /* OkonomiyakiStore2.swift in Sources */,
 				B0CAA310269DEEE50088E054 /* PiggyBank.swift in Sources */,
@@ -628,6 +693,7 @@
 				B0A90A762684DF940001BBE8 /* FlyType.swift in Sources */,
 				B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */,
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
+				B0CAA32A26AF12630088E054 /* Receiver.swift in Sources */,
 				B0E3AF452697570400FE8B73 /* HiroshimaCheeseOkonomiyaki.swift in Sources */,
 				B0E3AF62269B57B000FE8B73 /* HiroshimaOkonomiyakiIngredientFactory.swift in Sources */,
 				B077EB1B26948E7B00089303 /* Menu.swift in Sources */,
@@ -642,6 +708,9 @@
 				B0A90A7A2684E1BD0001BBE8 /* Charizard.swift in Sources */,
 				B0E3AF472697572100FE8B73 /* HiroshimaMentaikoOkonomiyaki.swift in Sources */,
 				B077EB132691837D00089303 /* NetfilxSubject.swift in Sources */,
+				B0CAA31326A092380088E054 /* CommandViewController.swift in Sources */,
+				B0CAA32026A0974A0088E054 /* CommandInvoker.swift in Sources */,
+				B0CAA32826AF10FF0088E054 /* Mario.swift in Sources */,
 				B0E3AF432697565C00FE8B73 /* HiroshimaMixedOkonomiyaki.swift in Sources */,
 				B0E3AF5B269B56B200FE8B73 /* KansaiSauce.swift in Sources */,
 				B0A90A682684DD150001BBE8 /* StrategyViewController.swift in Sources */,
@@ -651,6 +720,7 @@
 				B0E3AF69269B5D5500FE8B73 /* MentaikoOkonomiyaki.swift in Sources */,
 				B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */,
 				B0A90A6D2684DDD30001BBE8 /* FlyNormal.swift in Sources */,
+				B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */,
 				B077EB1D26948ECC00089303 /* Ramen.swift in Sources */,
 				B077EB22269492FA00089303 /* SeasonedEgg.swift in Sources */,
 				B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */,
@@ -660,7 +730,9 @@
 				B0E3AF70269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift in Sources */,
 				B0E3AF60269B575B00FE8B73 /* KansaiOkonomiyakiIngredientFactory.swift in Sources */,
 				B0E3AF3D2697532E00FE8B73 /* Okonomiyaki.swift in Sources */,
+				B0CAA31926A0963B0088E054 /* Command.swift in Sources */,
 				B077EB0426917D8200089303 /* ObserverViewController.swift in Sources */,
+				B0CAA31B26A096860088E054 /* JumpCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
