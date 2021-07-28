@@ -409,11 +409,11 @@
 		B0CAA31726A092C80088E054 /* Command */ = {
 			isa = PBXGroup;
 			children = (
-				B0CAA31226A092380088E054 /* CommandViewController.swift */,
 				B0CAA31F26A0974A0088E054 /* CommandInvoker.swift */,
-				B08AEC7526AF1ABB0098A564 /* Receiver */,
 				B0CAA31E26A097300088E054 /* Commands */,
 				B0CAA31426A092410088E054 /* CommandViewController.storyboard */,
+				B0CAA31226A092380088E054 /* CommandViewController.swift */,
+				B08AEC7526AF1ABB0098A564 /* Receiver */,
 			);
 			path = Command;
 			sourceTree = "<group>";
