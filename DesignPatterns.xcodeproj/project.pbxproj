@@ -80,6 +80,7 @@
 		B0E3AF6E269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF6D269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift */; };
 		B0E3AF70269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF6F269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift */; };
 		B0E3AF72269B603500FE8B73 /* OkonomiyakiStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF71269B603500FE8B73 /* OkonomiyakiStore2.swift */; };
+		B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5245526B1B5C400BBBA94 /* CommandType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,7 @@
 		B0E3AF6D269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KansaiOkonomiyakiStore2.swift; sourceTree = "<group>"; };
 		B0E3AF6F269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiroshimaOkonomiyakiStore2.swift; sourceTree = "<group>"; };
 		B0E3AF71269B603500FE8B73 /* OkonomiyakiStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiStore2.swift; sourceTree = "<group>"; };
+		B0E5245526B1B5C400BBBA94 /* CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -422,6 +424,7 @@
 			isa = PBXGroup;
 			children = (
 				B0CAA31826A0963B0088E054 /* Command.swift */,
+				B0E5245526B1B5C400BBBA94 /* CommandType.swift */,
 				B0CAA31C26A096D70088E054 /* FireballCommand.swift */,
 				B0CAA31A26A096860088E054 /* JumpCommand.swift */,
 			);
@@ -717,6 +720,7 @@
 				B0E3AF69269B5D5500FE8B73 /* MentaikoOkonomiyaki.swift in Sources */,
 				B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */,
 				B0A90A6D2684DDD30001BBE8 /* FlyNormal.swift in Sources */,
+				B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */,
 				B077EB1D26948ECC00089303 /* Ramen.swift in Sources */,
 				B077EB22269492FA00089303 /* SeasonedEgg.swift in Sources */,
 				B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */,

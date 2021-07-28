@@ -14,7 +14,6 @@ final class FireballCommand: Command {
     }
 
     func execute() {
-        receiver.action("ファイアボール")
-        print("\(receiver.name)「ボッ...!」")
+        receiver.action(by: .B)
     }
 }

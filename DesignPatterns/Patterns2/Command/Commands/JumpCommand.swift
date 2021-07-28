@@ -14,7 +14,6 @@ final class JumpCommand: Command {
     }
 
     func execute() {
-        receiver.action("ジャンプ")
-        print("\(receiver.name)「プーン」")
+        receiver.action(by: .A)
     }
 }

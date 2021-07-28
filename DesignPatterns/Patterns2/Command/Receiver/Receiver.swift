@@ -10,6 +10,6 @@ protocol Receiver: AnyObject {
     /// 名前
     var name: String { get }
     /// 実行
-    /// - Parameter commandName: コマンド名
-    func action(_ commandName: String)
+    /// - Parameter commandType: コマンドタイプ
+    func action(by commandType: CommandType)
 }

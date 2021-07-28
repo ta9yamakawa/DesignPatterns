@@ -9,7 +9,14 @@
 final class Mario: Receiver {
     var name: String = "マリオ"
     
-    func action(_ commandName: String) {
-        print("マリオはコマンド：\(commandName)を受け付けました。")
+    func action(by commandType: CommandType) {
+        let commandText: String
+        switch commandType {
+        case .A:
+            commandText = "プーン"
+        case .B:
+            commandText = "ボッ"
+        }
+        print("\(name)「\(commandText)」")
     }
 }
