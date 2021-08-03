@@ -69,5 +69,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapAdoptorButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "AdaptorViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? AdaptorViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 

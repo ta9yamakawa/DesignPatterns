@@ -81,6 +81,8 @@
 		B0E3AF70269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF6F269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift */; };
 		B0E3AF72269B603500FE8B73 /* OkonomiyakiStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AF71269B603500FE8B73 /* OkonomiyakiStore2.swift */; };
 		B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5245526B1B5C400BBBA94 /* CommandType.swift */; };
+		B0E5245B26B98F3F00BBBA94 /* AdaptorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5245A26B98F3E00BBBA94 /* AdaptorViewController.swift */; };
+		B0E5245D26B98F5F00BBBA94 /* AdaptorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E5245C26B98F5F00BBBA94 /* AdaptorViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +183,8 @@
 		B0E3AF6F269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiroshimaOkonomiyakiStore2.swift; sourceTree = "<group>"; };
 		B0E3AF71269B603500FE8B73 /* OkonomiyakiStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiStore2.swift; sourceTree = "<group>"; };
 		B0E5245526B1B5C400BBBA94 /* CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandType.swift; sourceTree = "<group>"; };
+		B0E5245A26B98F3E00BBBA94 /* AdaptorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptorViewController.swift; sourceTree = "<group>"; };
+		B0E5245C26B98F5F00BBBA94 /* AdaptorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdaptorViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +407,7 @@
 		B0CAA31626A092BF0088E054 /* Patterns2 */ = {
 			isa = PBXGroup;
 			children = (
+				B0E5245726B98F1200BBBA94 /* Adaptor */,
 				B0CAA31726A092C80088E054 /* Command */,
 			);
 			path = Patterns2;
@@ -534,6 +539,15 @@
 			path = Product;
 			sourceTree = "<group>";
 		};
+		B0E5245726B98F1200BBBA94 /* Adaptor */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5245A26B98F3E00BBBA94 /* AdaptorViewController.swift */,
+				B0E5245C26B98F5F00BBBA94 /* AdaptorViewController.storyboard */,
+			);
+			path = Adaptor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -638,6 +652,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A90A412684DB210001BBE8 /* LaunchScreen.storyboard in Resources */,
+				B0E5245D26B98F5F00BBBA94 /* AdaptorViewController.storyboard in Resources */,
 				B0E3AF392695FFB500FE8B73 /* FactoryViewController.storyboard in Resources */,
 				B077EB0626917DA000089303 /* ObserverViewController.storyboard in Resources */,
 				B0A90A3E2684DB210001BBE8 /* Assets.xcassets in Resources */,
@@ -692,6 +707,7 @@
 				B0E3AF4F2697580B00FE8B73 /* KansaiCheeseOkonomiyaki.swift in Sources */,
 				B0A90A762684DF940001BBE8 /* FlyType.swift in Sources */,
 				B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */,
+				B0E5245B26B98F3F00BBBA94 /* AdaptorViewController.swift in Sources */,
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
 				B0CAA32A26AF12630088E054 /* Receiver.swift in Sources */,
 				B0E3AF452697570400FE8B73 /* HiroshimaCheeseOkonomiyaki.swift in Sources */,
