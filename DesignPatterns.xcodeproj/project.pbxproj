@@ -83,6 +83,9 @@
 		B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5245526B1B5C400BBBA94 /* CommandType.swift */; };
 		B0E5245B26B98F3F00BBBA94 /* AdaptorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5245A26B98F3E00BBBA94 /* AdaptorViewController.swift */; };
 		B0E5245D26B98F5F00BBBA94 /* AdaptorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E5245C26B98F5F00BBBA94 /* AdaptorViewController.storyboard */; };
+		B0E5245F26B990D500BBBA94 /* BaseballPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5245E26B990D500BBBA94 /* BaseballPlayer.swift */; };
+		B0E5246126B993DE00BBBA94 /* PowerHitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5246026B993DE00BBBA94 /* PowerHitter.swift */; };
+		B0E5246326B9946200BBBA94 /* PowerHitterAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5246226B9946200BBBA94 /* PowerHitterAdaptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +188,9 @@
 		B0E5245526B1B5C400BBBA94 /* CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandType.swift; sourceTree = "<group>"; };
 		B0E5245A26B98F3E00BBBA94 /* AdaptorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptorViewController.swift; sourceTree = "<group>"; };
 		B0E5245C26B98F5F00BBBA94 /* AdaptorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdaptorViewController.storyboard; sourceTree = "<group>"; };
+		B0E5245E26B990D500BBBA94 /* BaseballPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballPlayer.swift; sourceTree = "<group>"; };
+		B0E5246026B993DE00BBBA94 /* PowerHitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHitter.swift; sourceTree = "<group>"; };
+		B0E5246226B9946200BBBA94 /* PowerHitterAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHitterAdaptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -542,8 +548,11 @@
 		B0E5245726B98F1200BBBA94 /* Adaptor */ = {
 			isa = PBXGroup;
 			children = (
-				B0E5245A26B98F3E00BBBA94 /* AdaptorViewController.swift */,
 				B0E5245C26B98F5F00BBBA94 /* AdaptorViewController.storyboard */,
+				B0E5245A26B98F3E00BBBA94 /* AdaptorViewController.swift */,
+				B0E5245E26B990D500BBBA94 /* BaseballPlayer.swift */,
+				B0E5246026B993DE00BBBA94 /* PowerHitter.swift */,
+				B0E5246226B9946200BBBA94 /* PowerHitterAdaptor.swift */,
 			);
 			path = Adaptor;
 			sourceTree = "<group>";
@@ -711,6 +720,7 @@
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
 				B0CAA32A26AF12630088E054 /* Receiver.swift in Sources */,
 				B0E3AF452697570400FE8B73 /* HiroshimaCheeseOkonomiyaki.swift in Sources */,
+				B0E5246126B993DE00BBBA94 /* PowerHitter.swift in Sources */,
 				B0E3AF62269B57B000FE8B73 /* HiroshimaOkonomiyakiIngredientFactory.swift in Sources */,
 				B077EB1B26948E7B00089303 /* Menu.swift in Sources */,
 				B0E3AF65269B5A9400FE8B73 /* MixedOkonomiyaki.swift in Sources */,
@@ -735,12 +745,14 @@
 				B0A90A742684DF690001BBE8 /* Pokemon.swift in Sources */,
 				B0E3AF69269B5D5500FE8B73 /* MentaikoOkonomiyaki.swift in Sources */,
 				B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */,
+				B0E5246326B9946200BBBA94 /* PowerHitterAdaptor.swift in Sources */,
 				B0A90A6D2684DDD30001BBE8 /* FlyNormal.swift in Sources */,
 				B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */,
 				B077EB1D26948ECC00089303 /* Ramen.swift in Sources */,
 				B077EB22269492FA00089303 /* SeasonedEgg.swift in Sources */,
 				B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */,
 				B077EB102691823F00089303 /* Paul.swift in Sources */,
+				B0E5245F26B990D500BBBA94 /* BaseballPlayer.swift in Sources */,
 				B0E3AF3B2697520000FE8B73 /* OkonomiyakiStore.swift in Sources */,
 				B0E3AF67269B5D0600FE8B73 /* CheeseOkonomiyaki.swift in Sources */,
 				B0E3AF70269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift in Sources */,
