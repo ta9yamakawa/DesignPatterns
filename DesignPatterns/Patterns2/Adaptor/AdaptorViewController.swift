@@ -13,6 +13,9 @@ final class AdaptorViewController: UIViewController {
     /// 強打者
     let powerHitter = PowerHitter()
 
+    /// 投手のアダプター
+    var pitcherAdaptor: BaseballPlayer?
+
     /// 打者のアダプター
     var hitterAdaptor: BaseballPlayer?
 
@@ -29,6 +32,7 @@ private extension AdaptorViewController {
     /// Adaptor周りの設定
     func setup() {
         hitterAdaptor = PowerHitterAdaptor(player: powerHitter)
+        pitcherAdaptor = AcePitcherAdaptor()
     }
 
     @IBAction func didTapHittingButton(_ sender: Any) {
@@ -36,5 +40,14 @@ private extension AdaptorViewController {
             return
         }
         adaptor.hitting()
+        adaptor.throwing()
+    }
+
+    @IBAction func didTapThrowingButton(_ sender: Any) {
+        guard let adaptor = pitcherAdaptor else {
+            return
+        }
+        adaptor.hitting()
+        adaptor.throwing()
     }
 }

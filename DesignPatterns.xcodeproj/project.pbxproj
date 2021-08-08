@@ -86,6 +86,8 @@
 		B0E5245F26B990D500BBBA94 /* BaseballPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5245E26B990D500BBBA94 /* BaseballPlayer.swift */; };
 		B0E5246126B993DE00BBBA94 /* PowerHitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5246026B993DE00BBBA94 /* PowerHitter.swift */; };
 		B0E5246326B9946200BBBA94 /* PowerHitterAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5246226B9946200BBBA94 /* PowerHitterAdaptor.swift */; };
+		B0E524A126C044A400BBBA94 /* AcePitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E524A026C044A400BBBA94 /* AcePitcher.swift */; };
+		B0E524A326C044F400BBBA94 /* AcePitcherAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E524A226C044F400BBBA94 /* AcePitcherAdaptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +193,8 @@
 		B0E5245E26B990D500BBBA94 /* BaseballPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballPlayer.swift; sourceTree = "<group>"; };
 		B0E5246026B993DE00BBBA94 /* PowerHitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHitter.swift; sourceTree = "<group>"; };
 		B0E5246226B9946200BBBA94 /* PowerHitterAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHitterAdaptor.swift; sourceTree = "<group>"; };
+		B0E524A026C044A400BBBA94 /* AcePitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcePitcher.swift; sourceTree = "<group>"; };
+		B0E524A226C044F400BBBA94 /* AcePitcherAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcePitcherAdaptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -551,10 +555,28 @@
 				B0E5245C26B98F5F00BBBA94 /* AdaptorViewController.storyboard */,
 				B0E5245A26B98F3E00BBBA94 /* AdaptorViewController.swift */,
 				B0E5245E26B990D500BBBA94 /* BaseballPlayer.swift */,
+				B0E524A526C0495400BBBA94 /* ClassAdaptor */,
+				B0E524A426C0494700BBBA94 /* ObjectAdaptor */,
+			);
+			path = Adaptor;
+			sourceTree = "<group>";
+		};
+		B0E524A426C0494700BBBA94 /* ObjectAdaptor */ = {
+			isa = PBXGroup;
+			children = (
 				B0E5246026B993DE00BBBA94 /* PowerHitter.swift */,
 				B0E5246226B9946200BBBA94 /* PowerHitterAdaptor.swift */,
 			);
-			path = Adaptor;
+			path = ObjectAdaptor;
+			sourceTree = "<group>";
+		};
+		B0E524A526C0495400BBBA94 /* ClassAdaptor */ = {
+			isa = PBXGroup;
+			children = (
+				B0E524A026C044A400BBBA94 /* AcePitcher.swift */,
+				B0E524A226C044F400BBBA94 /* AcePitcherAdaptor.swift */,
+			);
+			path = ClassAdaptor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -720,6 +742,7 @@
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
 				B0CAA32A26AF12630088E054 /* Receiver.swift in Sources */,
 				B0E3AF452697570400FE8B73 /* HiroshimaCheeseOkonomiyaki.swift in Sources */,
+				B0E524A326C044F400BBBA94 /* AcePitcherAdaptor.swift in Sources */,
 				B0E5246126B993DE00BBBA94 /* PowerHitter.swift in Sources */,
 				B0E3AF62269B57B000FE8B73 /* HiroshimaOkonomiyakiIngredientFactory.swift in Sources */,
 				B077EB1B26948E7B00089303 /* Menu.swift in Sources */,
@@ -758,6 +781,7 @@
 				B0E3AF70269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift in Sources */,
 				B0E3AF60269B575B00FE8B73 /* KansaiOkonomiyakiIngredientFactory.swift in Sources */,
 				B0E3AF3D2697532E00FE8B73 /* Okonomiyaki.swift in Sources */,
+				B0E524A126C044A400BBBA94 /* AcePitcher.swift in Sources */,
 				B0CAA31926A0963B0088E054 /* Command.swift in Sources */,
 				B077EB0426917D8200089303 /* ObserverViewController.swift in Sources */,
 				B0CAA31B26A096860088E054 /* JumpCommand.swift in Sources */,

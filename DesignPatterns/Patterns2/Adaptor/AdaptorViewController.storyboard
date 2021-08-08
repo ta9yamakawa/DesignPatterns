@@ -16,32 +16,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pitcher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7b-1a-mPi">
-                                <rect key="frame" x="176" y="144" width="62" height="24"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHc-cp-HZw">
+                                <rect key="frame" x="84.5" y="218" width="245" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Swb-HT-asa">
+                                        <rect key="frame" x="20" y="47" width="90" height="34"/>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="tRO-4V-k9e"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="強打者"/>
+                                        <connections>
+                                            <action selector="didTapHittingButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ntp-JH-f7E"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bj0-HL-wfm">
+                                        <rect key="frame" x="130" y="47" width="90" height="34"/>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="iV3-PM-qeY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="エース"/>
+                                        <connections>
+                                            <action selector="didTapThrowingButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5Lb-Ah-89k"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="bj0-HL-wfm" firstAttribute="leading" secondItem="Swb-HT-asa" secondAttribute="trailing" constant="20" id="GAr-mk-EZN"/>
+                                    <constraint firstItem="Swb-HT-asa" firstAttribute="leading" secondItem="gHc-cp-HZw" secondAttribute="leading" constant="20" id="H2Y-ry-nKv"/>
+                                    <constraint firstItem="Swb-HT-asa" firstAttribute="top" secondItem="gHc-cp-HZw" secondAttribute="top" constant="47" id="ewt-6D-72i"/>
+                                    <constraint firstItem="bj0-HL-wfm" firstAttribute="top" secondItem="gHc-cp-HZw" secondAttribute="top" constant="47" id="p1q-1G-bSE"/>
+                                    <constraint firstAttribute="trailing" secondItem="bj0-HL-wfm" secondAttribute="trailing" constant="25" id="pFh-g6-ZzZ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basaball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7b-1a-mPi">
+                                <rect key="frame" x="170" y="144" width="74" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Swb-HT-asa">
-                                <rect key="frame" x="90" y="244" width="90" height="34"/>
-                                <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="tRO-4V-k9e"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="打撃"/>
-                                <connections>
-                                    <action selector="didTapHittingButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ntp-JH-f7E"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="gHc-cp-HZw" firstAttribute="top" secondItem="Z7b-1a-mPi" secondAttribute="bottom" constant="50" id="285-DE-XA4"/>
                             <constraint firstItem="Z7b-1a-mPi" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="5za-hN-74b"/>
-                            <constraint firstItem="Swb-HT-asa" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="200" id="6U0-LK-qGC"/>
                             <constraint firstItem="Z7b-1a-mPi" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="100" id="BmJ-wR-SB0"/>
-                            <constraint firstItem="Swb-HT-asa" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="90" id="Jzi-Ar-ZNz"/>
+                            <constraint firstItem="gHc-cp-HZw" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="mAa-zO-CGQ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="gHc-cp-HZw" secondAttribute="bottom" constant="516" id="pkW-me-CZl"/>
                         </constraints>
                     </view>
                 </viewController>
