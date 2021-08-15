@@ -15,13 +15,52 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="家主" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0q-ug-oBe">
+                                <rect key="frame" x="185.5" y="144" width="43" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="外出中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lA0-eC-Yrg">
+                                <rect key="frame" x="102.5" y="222" width="65" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y01-6B-X4N">
+                                <rect key="frame" x="182.5" y="219.5" width="51" height="31"/>
+                                <connections>
+                                    <action selector="didToggleSwitch:" destination="Y6W-OH-hqX" eventType="valueChanged" id="dzE-xk-d8w"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="帰宅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asj-2B-Ebw">
+                                <rect key="frame" x="246.5" y="222" width="43" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Asj-2B-Ebw" firstAttribute="leading" secondItem="y01-6B-X4N" secondAttribute="trailing" constant="15" id="GFi-9n-cEH"/>
+                            <constraint firstItem="y01-6B-X4N" firstAttribute="leading" secondItem="lA0-eC-Yrg" secondAttribute="trailing" constant="15" id="Lfx-3L-D2q"/>
+                            <constraint firstItem="Asj-2B-Ebw" firstAttribute="centerY" secondItem="y01-6B-X4N" secondAttribute="centerY" id="Ugs-9D-E8v"/>
+                            <constraint firstItem="R0q-ug-oBe" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="100" id="aRP-LE-aBx"/>
+                            <constraint firstItem="R0q-ug-oBe" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="knd-ao-Q7T"/>
+                            <constraint firstItem="y01-6B-X4N" firstAttribute="top" secondItem="R0q-ug-oBe" secondAttribute="bottom" constant="50" id="ru7-aP-DSm"/>
+                            <constraint firstItem="y01-6B-X4N" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="xWY-xB-ele"/>
+                            <constraint firstItem="lA0-eC-Yrg" firstAttribute="centerY" secondItem="y01-6B-X4N" secondAttribute="centerY" id="yoL-LM-YLf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="toggleSwitch" destination="y01-6B-X4N" id="Yaq-gM-KKg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="74"/>
+            <point key="canvasLocation" x="73.913043478260875" y="73.660714285714278"/>
         </scene>
     </scenes>
     <resources>

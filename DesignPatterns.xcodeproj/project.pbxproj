@@ -25,6 +25,11 @@
 		B08AEC7426AF1A9F0098A564 /* Luigi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08AEC7326AF1A9F0098A564 /* Luigi.swift */; };
 		B091EE5726C9180500C3D9B6 /* FacadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE5626C9180500C3D9B6 /* FacadeViewController.swift */; };
 		B091EE5926C9180D00C3D9B6 /* FacadeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */; };
+		B091EE5E26C91FC000C3D9B6 /* SmartSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE5D26C91FC000C3D9B6 /* SmartSpeaker.swift */; };
+		B091EE6026C91FD900C3D9B6 /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE5F26C91FD900C3D9B6 /* TV.swift */; };
+		B091EE6226C9207500C3D9B6 /* HomeAppliances.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE6126C9207500C3D9B6 /* HomeAppliances.swift */; };
+		B091EE6426C9210100C3D9B6 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE6326C9210100C3D9B6 /* Light.swift */; };
+		B091EE6626C9213100C3D9B6 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE6526C9213100C3D9B6 /* Speaker.swift */; };
 		B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */; };
 		B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */; };
 		B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A382684DB1E0001BBE8 /* ViewController.swift */; };
@@ -128,6 +133,11 @@
 		B08AEC7326AF1A9F0098A564 /* Luigi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luigi.swift; sourceTree = "<group>"; };
 		B091EE5626C9180500C3D9B6 /* FacadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeViewController.swift; sourceTree = "<group>"; };
 		B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacadeViewController.storyboard; sourceTree = "<group>"; };
+		B091EE5D26C91FC000C3D9B6 /* SmartSpeaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSpeaker.swift; sourceTree = "<group>"; };
+		B091EE5F26C91FD900C3D9B6 /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
+		B091EE6126C9207500C3D9B6 /* HomeAppliances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppliances.swift; sourceTree = "<group>"; };
+		B091EE6326C9210100C3D9B6 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		B091EE6526C9213100C3D9B6 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		B0A90A312684DB1E0001BBE8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -300,10 +310,23 @@
 		B091EE5A26C9184400C3D9B6 /* Facade */ = {
 			isa = PBXGroup;
 			children = (
-				B091EE5626C9180500C3D9B6 /* FacadeViewController.swift */,
 				B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */,
+				B091EE5626C9180500C3D9B6 /* FacadeViewController.swift */,
+				B091EE6126C9207500C3D9B6 /* HomeAppliances.swift */,
+				B091EE5D26C91FC000C3D9B6 /* SmartSpeaker.swift */,
+				B091EE6726C9215A00C3D9B6 /* SubSystems */,
 			);
 			path = Facade;
+			sourceTree = "<group>";
+		};
+		B091EE6726C9215A00C3D9B6 /* SubSystems */ = {
+			isa = PBXGroup;
+			children = (
+				B091EE5F26C91FD900C3D9B6 /* TV.swift */,
+				B091EE6326C9210100C3D9B6 /* Light.swift */,
+				B091EE6526C9213100C3D9B6 /* Speaker.swift */,
+			);
+			path = SubSystems;
 			sourceTree = "<group>";
 		};
 		B0A90A282684DB1E0001BBE8 = {
@@ -732,6 +755,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B091EE6226C9207500C3D9B6 /* HomeAppliances.swift in Sources */,
 				B0A90A6F2684DE120001BBE8 /* FlyBalloon.swift in Sources */,
 				B077EB262694947C00089303 /* RoastPork.swift in Sources */,
 				B077EB0A269180D800089303 /* Observer.swift in Sources */,
@@ -744,6 +768,7 @@
 				B0E3AF6E269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift in Sources */,
 				B077EB1726937A3A00089303 /* DecoratorViewController.swift in Sources */,
 				B077EB242694942D00089303 /* Seaweed.swift in Sources */,
+				B091EE6026C91FD900C3D9B6 /* TV.swift in Sources */,
 				B0A90A712684DE8D0001BBE8 /* FlyNoWay.swift in Sources */,
 				B08AEC7426AF1A9F0098A564 /* Luigi.swift in Sources */,
 				B0E3AF57269B55DE00FE8B73 /* OkonomiyakiIngredientFactory.swift in Sources */,
@@ -754,12 +779,14 @@
 				B0A90A762684DF940001BBE8 /* FlyType.swift in Sources */,
 				B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */,
 				B0E5245B26B98F3F00BBBA94 /* AdaptorViewController.swift in Sources */,
+				B091EE5E26C91FC000C3D9B6 /* SmartSpeaker.swift in Sources */,
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
 				B0CAA32A26AF12630088E054 /* Receiver.swift in Sources */,
 				B0E3AF452697570400FE8B73 /* HiroshimaCheeseOkonomiyaki.swift in Sources */,
 				B0E524A326C044F400BBBA94 /* AcePitcherAdaptor.swift in Sources */,
 				B0E5246126B993DE00BBBA94 /* PowerHitter.swift in Sources */,
 				B0E3AF62269B57B000FE8B73 /* HiroshimaOkonomiyakiIngredientFactory.swift in Sources */,
+				B091EE6626C9213100C3D9B6 /* Speaker.swift in Sources */,
 				B077EB1B26948E7B00089303 /* Menu.swift in Sources */,
 				B0E3AF65269B5A9400FE8B73 /* MixedOkonomiyaki.swift in Sources */,
 				B0E3AF4D269757FE00FE8B73 /* KansaiMixedOkonomiyaki.swift in Sources */,
@@ -789,6 +816,7 @@
 				B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */,
 				B077EB1D26948ECC00089303 /* Ramen.swift in Sources */,
 				B077EB22269492FA00089303 /* SeasonedEgg.swift in Sources */,
+				B091EE6426C9210100C3D9B6 /* Light.swift in Sources */,
 				B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */,
 				B077EB102691823F00089303 /* Paul.swift in Sources */,
 				B0E5245F26B990D500BBBA94 /* BaseballPlayer.swift in Sources */,

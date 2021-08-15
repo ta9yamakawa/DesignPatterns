@@ -9,8 +9,20 @@ import UIKit
 
 /// FacadeViewController
 final class FacadeViewController: UIViewController {
+    /// スマートスピーカー
+    private let smartSpeaker = SmartSpeaker()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    /// 家主のステータスを操作するスイッチ
+    @IBOutlet private weak var toggleSwitch: UISwitch!
+
+}
+
+private extension FacadeViewController {
+    @IBAction func didToggleSwitch(_ sender: Any) {
+        if toggleSwitch.isOn {
+            smartSpeaker.turnOnAllHomeAppliances()
+        } else {
+            smartSpeaker.turnOffAllHomeAppliances()
+        }
     }
 }
