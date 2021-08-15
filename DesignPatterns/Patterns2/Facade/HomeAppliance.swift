@@ -6,7 +6,7 @@
 //
 
 /// 家電の電源On/Off操作プロトコル
-protocol HomeAppliances {
+protocol HomeAppliance {
     /// 電源をつける
     static func turnOn()
 

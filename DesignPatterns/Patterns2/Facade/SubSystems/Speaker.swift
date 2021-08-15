@@ -8,7 +8,7 @@
 import Foundation
 
 /// スピーカー
-final class Speaker: HomeAppliances {
+final class Speaker: HomeAppliance {
     static func turnOn() {
         print("音楽をかけました")
     }

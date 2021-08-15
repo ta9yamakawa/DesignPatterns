@@ -8,7 +8,7 @@
 import Foundation
 
 /// TV
-final class TV: HomeAppliances {
+final class TV: HomeAppliance {
     static func turnOn() {
         print("TVをつけました")
     }

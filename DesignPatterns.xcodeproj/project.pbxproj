@@ -27,7 +27,7 @@
 		B091EE5926C9180D00C3D9B6 /* FacadeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */; };
 		B091EE5E26C91FC000C3D9B6 /* SmartSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE5D26C91FC000C3D9B6 /* SmartSpeaker.swift */; };
 		B091EE6026C91FD900C3D9B6 /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE5F26C91FD900C3D9B6 /* TV.swift */; };
-		B091EE6226C9207500C3D9B6 /* HomeAppliances.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE6126C9207500C3D9B6 /* HomeAppliances.swift */; };
+		B091EE6226C9207500C3D9B6 /* HomeAppliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE6126C9207500C3D9B6 /* HomeAppliance.swift */; };
 		B091EE6426C9210100C3D9B6 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE6326C9210100C3D9B6 /* Light.swift */; };
 		B091EE6626C9213100C3D9B6 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE6526C9213100C3D9B6 /* Speaker.swift */; };
 		B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */; };
@@ -135,7 +135,7 @@
 		B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacadeViewController.storyboard; sourceTree = "<group>"; };
 		B091EE5D26C91FC000C3D9B6 /* SmartSpeaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSpeaker.swift; sourceTree = "<group>"; };
 		B091EE5F26C91FD900C3D9B6 /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
-		B091EE6126C9207500C3D9B6 /* HomeAppliances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppliances.swift; sourceTree = "<group>"; };
+		B091EE6126C9207500C3D9B6 /* HomeAppliance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppliance.swift; sourceTree = "<group>"; };
 		B091EE6326C9210100C3D9B6 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
 		B091EE6526C9213100C3D9B6 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		B0A90A312684DB1E0001BBE8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -312,7 +312,7 @@
 			children = (
 				B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */,
 				B091EE5626C9180500C3D9B6 /* FacadeViewController.swift */,
-				B091EE6126C9207500C3D9B6 /* HomeAppliances.swift */,
+				B091EE6126C9207500C3D9B6 /* HomeAppliance.swift */,
 				B091EE5D26C91FC000C3D9B6 /* SmartSpeaker.swift */,
 				B091EE6726C9215A00C3D9B6 /* SubSystems */,
 			);
@@ -755,7 +755,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B091EE6226C9207500C3D9B6 /* HomeAppliances.swift in Sources */,
+				B091EE6226C9207500C3D9B6 /* HomeAppliance.swift in Sources */,
 				B0A90A6F2684DE120001BBE8 /* FlyBalloon.swift in Sources */,
 				B077EB262694947C00089303 /* RoastPork.swift in Sources */,
 				B077EB0A269180D800089303 /* Observer.swift in Sources */,
