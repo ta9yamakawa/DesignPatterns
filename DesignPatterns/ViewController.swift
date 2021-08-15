@@ -77,5 +77,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapFacadeButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "FacadeViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? FacadeViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 
