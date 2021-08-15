@@ -23,6 +23,8 @@
 		B077EB242694942D00089303 /* Seaweed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB232694942D00089303 /* Seaweed.swift */; };
 		B077EB262694947C00089303 /* RoastPork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077EB252694947C00089303 /* RoastPork.swift */; };
 		B08AEC7426AF1A9F0098A564 /* Luigi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08AEC7326AF1A9F0098A564 /* Luigi.swift */; };
+		B091EE5726C9180500C3D9B6 /* FacadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE5626C9180500C3D9B6 /* FacadeViewController.swift */; };
+		B091EE5926C9180D00C3D9B6 /* FacadeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */; };
 		B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */; };
 		B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */; };
 		B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A382684DB1E0001BBE8 /* ViewController.swift */; };
@@ -124,6 +126,8 @@
 		B077EB232694942D00089303 /* Seaweed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seaweed.swift; sourceTree = "<group>"; };
 		B077EB252694947C00089303 /* RoastPork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoastPork.swift; sourceTree = "<group>"; };
 		B08AEC7326AF1A9F0098A564 /* Luigi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luigi.swift; sourceTree = "<group>"; };
+		B091EE5626C9180500C3D9B6 /* FacadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeViewController.swift; sourceTree = "<group>"; };
+		B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacadeViewController.storyboard; sourceTree = "<group>"; };
 		B0A90A312684DB1E0001BBE8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -293,6 +297,15 @@
 			path = Receiver;
 			sourceTree = "<group>";
 		};
+		B091EE5A26C9184400C3D9B6 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				B091EE5626C9180500C3D9B6 /* FacadeViewController.swift */,
+				B091EE5826C9180D00C3D9B6 /* FacadeViewController.storyboard */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
 		B0A90A282684DB1E0001BBE8 = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +432,7 @@
 			children = (
 				B0E5245726B98F1200BBBA94 /* Adaptor */,
 				B0CAA31726A092C80088E054 /* Command */,
+				B091EE5A26C9184400C3D9B6 /* Facade */,
 			);
 			path = Patterns2;
 			sourceTree = "<group>";
@@ -683,6 +697,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A90A412684DB210001BBE8 /* LaunchScreen.storyboard in Resources */,
+				B091EE5926C9180D00C3D9B6 /* FacadeViewController.storyboard in Resources */,
 				B0E5245D26B98F5F00BBBA94 /* AdaptorViewController.storyboard in Resources */,
 				B0E3AF392695FFB500FE8B73 /* FactoryViewController.storyboard in Resources */,
 				B077EB0626917DA000089303 /* ObserverViewController.storyboard in Resources */,
@@ -748,6 +763,7 @@
 				B077EB1B26948E7B00089303 /* Menu.swift in Sources */,
 				B0E3AF65269B5A9400FE8B73 /* MixedOkonomiyaki.swift in Sources */,
 				B0E3AF4D269757FE00FE8B73 /* KansaiMixedOkonomiyaki.swift in Sources */,
+				B091EE5726C9180500C3D9B6 /* FacadeViewController.swift in Sources */,
 				B0E3AF372695FFA300FE8B73 /* FactoryViewController.swift in Sources */,
 				B0A90A6A2684DD7A0001BBE8 /* FlyBehavior.swift in Sources */,
 				B0E3AF6B269B5EEE00FE8B73 /* Okonomiyaki2.swift in Sources */,
