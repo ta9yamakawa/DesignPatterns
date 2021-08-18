@@ -124,6 +124,18 @@
                                     <action selector="didTapFacadeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pLE-16-i4g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzJ-0E-84F">
+                                <rect key="frame" x="136.5" y="506" width="141" height="34"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="gcY-7Q-eXQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Template Method"/>
+                                <connections>
+                                    <action selector="didTapTemplateMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KFU-xm-yvz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -135,11 +147,13 @@
                             <constraint firstItem="sjf-of-Oq2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TY8-ig-Wqu"/>
                             <constraint firstItem="HXn-JT-igm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WhV-bu-ywx"/>
                             <constraint firstItem="hCu-lQ-vWw" firstAttribute="top" secondItem="mSn-GA-FLC" secondAttribute="bottom" constant="20" id="Wt4-RY-bcK"/>
+                            <constraint firstItem="DzJ-0E-84F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XaT-Ac-0Ya"/>
                             <constraint firstItem="MGr-GN-FLG" firstAttribute="centerY" secondItem="J7X-u2-wmx" secondAttribute="centerY" id="bkE-1e-Aoa"/>
                             <constraint firstItem="HXn-JT-igm" firstAttribute="top" secondItem="sjf-of-Oq2" secondAttribute="bottom" constant="20" id="cU8-1B-fDs"/>
                             <constraint firstItem="J7X-u2-wmx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="f0g-J1-Efi"/>
                             <constraint firstItem="ctw-uQ-IZc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ibi-xu-ylf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MGr-GN-FLG" secondAttribute="trailing" constant="80" id="myq-eN-6m4"/>
+                            <constraint firstItem="DzJ-0E-84F" firstAttribute="top" secondItem="9wb-Zm-0rP" secondAttribute="bottom" constant="20" id="oLu-U5-y9j"/>
                             <constraint firstItem="9wb-Zm-0rP" firstAttribute="top" secondItem="hCu-lQ-vWw" secondAttribute="bottom" constant="20" id="oOK-vL-0Tg"/>
                             <constraint firstItem="mSn-GA-FLC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="scj-uS-w3r"/>
                             <constraint firstItem="hCu-lQ-vWw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="utv-hm-9pN"/>
