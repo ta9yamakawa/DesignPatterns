@@ -342,13 +342,29 @@
 		B091EE7426CD578900C3D9B6 /* TemplateMethod */ = {
 			isa = PBXGroup;
 			children = (
+				B091EE7B26CD707800C3D9B6 /* Template */,
 				B091EE7226CD56A600C3D9B6 /* TemplateMethodViewController.storyboard */,
 				B091EE7026CD568E00C3D9B6 /* TemplateMethodViewController.swift */,
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		B091EE7B26CD707800C3D9B6 /* Template */ = {
+			isa = PBXGroup;
+			children = (
 				B091EE7526CD57BE00C3D9B6 /* SelfIntroduction.swift */,
+				B091EE7C26CD70A000C3D9B6 /* ConcreteClasses */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		B091EE7C26CD70A000C3D9B6 /* ConcreteClasses */ = {
+			isa = PBXGroup;
+			children = (
 				B091EE7726CD5A0700C3D9B6 /* Tanaka.swift */,
 				B091EE7926CD5A5400C3D9B6 /* Yamada.swift */,
 			);
-			path = TemplateMethod;
+			path = ConcreteClasses;
 			sourceTree = "<group>";
 		};
 		B0A90A282684DB1E0001BBE8 = {
