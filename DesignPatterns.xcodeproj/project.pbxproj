@@ -37,6 +37,15 @@
 		B091EE7A26CD5A5400C3D9B6 /* Yamada.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE7926CD5A5400C3D9B6 /* Yamada.swift */; };
 		B091EE7E26D2420D00C3D9B6 /* IteratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE7D26D2420D00C3D9B6 /* IteratorViewController.swift */; };
 		B091EE8026D2422800C3D9B6 /* IteratorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B091EE7F26D2422800C3D9B6 /* IteratorViewController.storyboard */; };
+		B091EE8226D2450000C3D9B6 /* BachelorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE8126D2450000C3D9B6 /* BachelorModel.swift */; };
+		B091EE8426D245B700C3D9B6 /* MasterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE8326D245B700C3D9B6 /* MasterModel.swift */; };
+		B091EE8926D2464A00C3D9B6 /* Bachelor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE8826D2464A00C3D9B6 /* Bachelor.swift */; };
+		B091EE8B26D2466C00C3D9B6 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE8A26D2466C00C3D9B6 /* Master.swift */; };
+		B091EE8D26D2468900C3D9B6 /* Aggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE8C26D2468900C3D9B6 /* Aggregate.swift */; };
+		B091EE9026D246E400C3D9B6 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE8F26D246E300C3D9B6 /* Iterator.swift */; };
+		B091EE9226D2472C00C3D9B6 /* BachelorIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE9126D2472C00C3D9B6 /* BachelorIterator.swift */; };
+		B091EE9426D2474400C3D9B6 /* MasterIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE9326D2474400C3D9B6 /* MasterIterator.swift */; };
+		B091EE9726D27CA800C3D9B6 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE9626D27CA800C3D9B6 /* StudentModel.swift */; };
 		B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */; };
 		B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */; };
 		B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A382684DB1E0001BBE8 /* ViewController.swift */; };
@@ -152,6 +161,15 @@
 		B091EE7926CD5A5400C3D9B6 /* Yamada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yamada.swift; sourceTree = "<group>"; };
 		B091EE7D26D2420D00C3D9B6 /* IteratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorViewController.swift; sourceTree = "<group>"; };
 		B091EE7F26D2422800C3D9B6 /* IteratorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IteratorViewController.storyboard; sourceTree = "<group>"; };
+		B091EE8126D2450000C3D9B6 /* BachelorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BachelorModel.swift; sourceTree = "<group>"; };
+		B091EE8326D245B700C3D9B6 /* MasterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterModel.swift; sourceTree = "<group>"; };
+		B091EE8826D2464A00C3D9B6 /* Bachelor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bachelor.swift; sourceTree = "<group>"; };
+		B091EE8A26D2466C00C3D9B6 /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
+		B091EE8C26D2468900C3D9B6 /* Aggregate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggregate.swift; sourceTree = "<group>"; };
+		B091EE8F26D246E300C3D9B6 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		B091EE9126D2472C00C3D9B6 /* BachelorIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BachelorIterator.swift; sourceTree = "<group>"; };
+		B091EE9326D2474400C3D9B6 /* MasterIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterIterator.swift; sourceTree = "<group>"; };
+		B091EE9626D27CA800C3D9B6 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		B0A90A312684DB1E0001BBE8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -371,6 +389,56 @@
 			path = ConcreteClasses;
 			sourceTree = "<group>";
 		};
+		B091EE8526D245FB00C3D9B6 /* patterns3 */ = {
+			isa = PBXGroup;
+			children = (
+				B091EE8626D2460700C3D9B6 /* Iterator */,
+			);
+			path = patterns3;
+			sourceTree = "<group>";
+		};
+		B091EE8626D2460700C3D9B6 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				B091EE8E26D246D700C3D9B6 /* Aggregate */,
+				B091EE9526D2476800C3D9B6 /* Iterator */,
+				B091EE7F26D2422800C3D9B6 /* IteratorViewController.storyboard */,
+				B091EE7D26D2420D00C3D9B6 /* IteratorViewController.swift */,
+				B091EE8726D2461E00C3D9B6 /* Model */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		B091EE8726D2461E00C3D9B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B091EE8126D2450000C3D9B6 /* BachelorModel.swift */,
+				B091EE9626D27CA800C3D9B6 /* StudentModel.swift */,
+				B091EE8326D245B700C3D9B6 /* MasterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B091EE8E26D246D700C3D9B6 /* Aggregate */ = {
+			isa = PBXGroup;
+			children = (
+				B091EE8C26D2468900C3D9B6 /* Aggregate.swift */,
+				B091EE8826D2464A00C3D9B6 /* Bachelor.swift */,
+				B091EE8A26D2466C00C3D9B6 /* Master.swift */,
+			);
+			path = Aggregate;
+			sourceTree = "<group>";
+		};
+		B091EE9526D2476800C3D9B6 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				B091EE9126D2472C00C3D9B6 /* BachelorIterator.swift */,
+				B091EE8F26D246E300C3D9B6 /* Iterator.swift */,
+				B091EE9326D2474400C3D9B6 /* MasterIterator.swift */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
 		B0A90A282684DB1E0001BBE8 = {
 			isa = PBXGroup;
 			children = (
@@ -401,10 +469,9 @@
 				B0A90A3A2684DB1E0001BBE8 /* Main.storyboard */,
 				B0CAA311269E02E00088E054 /* Patterns1 */,
 				B0CAA31626A092BF0088E054 /* Patterns2 */,
+				B091EE8526D245FB00C3D9B6 /* patterns3 */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
 				B0A90A382684DB1E0001BBE8 /* ViewController.swift */,
-				B091EE7D26D2420D00C3D9B6 /* IteratorViewController.swift */,
-				B091EE7F26D2422800C3D9B6 /* IteratorViewController.storyboard */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -805,8 +872,10 @@
 				B091EE6226C9207500C3D9B6 /* HomeAppliance.swift in Sources */,
 				B0A90A6F2684DE120001BBE8 /* FlyBalloon.swift in Sources */,
 				B077EB262694947C00089303 /* RoastPork.swift in Sources */,
+				B091EE9026D246E400C3D9B6 /* Iterator.swift in Sources */,
 				B077EB0A269180D800089303 /* Observer.swift in Sources */,
 				B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */,
+				B091EE8D26D2468900C3D9B6 /* Aggregate.swift in Sources */,
 				B0E3AF512697581500FE8B73 /* KansaiMentaikoOkonomiyaki.swift in Sources */,
 				B077EB2026948FD600089303 /* Decorator.swift in Sources */,
 				B0CAA31D26A096D70088E054 /* FireballCommand.swift in Sources */,
@@ -827,6 +896,7 @@
 				B0E3AF4F2697580B00FE8B73 /* KansaiCheeseOkonomiyaki.swift in Sources */,
 				B0A90A762684DF940001BBE8 /* FlyType.swift in Sources */,
 				B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */,
+				B091EE9226D2472C00C3D9B6 /* BachelorIterator.swift in Sources */,
 				B0E5245B26B98F3F00BBBA94 /* AdaptorViewController.swift in Sources */,
 				B091EE5E26C91FC000C3D9B6 /* SmartSpeaker.swift in Sources */,
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
@@ -836,15 +906,19 @@
 				B0E5246126B993DE00BBBA94 /* PowerHitter.swift in Sources */,
 				B0E3AF62269B57B000FE8B73 /* HiroshimaOkonomiyakiIngredientFactory.swift in Sources */,
 				B091EE6626C9213100C3D9B6 /* Speaker.swift in Sources */,
+				B091EE9726D27CA800C3D9B6 /* StudentModel.swift in Sources */,
 				B077EB1B26948E7B00089303 /* Menu.swift in Sources */,
 				B0E3AF65269B5A9400FE8B73 /* MixedOkonomiyaki.swift in Sources */,
 				B0E3AF4D269757FE00FE8B73 /* KansaiMixedOkonomiyaki.swift in Sources */,
+				B091EE8426D245B700C3D9B6 /* MasterModel.swift in Sources */,
 				B091EE5726C9180500C3D9B6 /* FacadeViewController.swift in Sources */,
 				B0E3AF372695FFA300FE8B73 /* FactoryViewController.swift in Sources */,
 				B0A90A6A2684DD7A0001BBE8 /* FlyBehavior.swift in Sources */,
 				B0E3AF6B269B5EEE00FE8B73 /* Okonomiyaki2.swift in Sources */,
 				B0E3AF412697553800FE8B73 /* HiroshimaOkonomiyakiStore.swift in Sources */,
+				B091EE9426D2474400C3D9B6 /* MasterIterator.swift in Sources */,
 				B0E3AF4B269757D300FE8B73 /* KansaiOkonimiyakiStore.swift in Sources */,
+				B091EE8B26D2466C00C3D9B6 /* Master.swift in Sources */,
 				B0E3AF3F2697535B00FE8B73 /* Topping.swift in Sources */,
 				B0A90A7A2684E1BD0001BBE8 /* Charizard.swift in Sources */,
 				B0E3AF472697572100FE8B73 /* HiroshimaMentaikoOkonomiyaki.swift in Sources */,
@@ -875,10 +949,12 @@
 				B0E3AF70269B5FC500FE8B73 /* HiroshimaOkonomiyakiStore2.swift in Sources */,
 				B0E3AF60269B575B00FE8B73 /* KansaiOkonomiyakiIngredientFactory.swift in Sources */,
 				B0E3AF3D2697532E00FE8B73 /* Okonomiyaki.swift in Sources */,
+				B091EE8226D2450000C3D9B6 /* BachelorModel.swift in Sources */,
 				B0E524A126C044A400BBBA94 /* AcePitcher.swift in Sources */,
 				B0CAA31926A0963B0088E054 /* Command.swift in Sources */,
 				B077EB0426917D8200089303 /* ObserverViewController.swift in Sources */,
 				B091EE7A26CD5A5400C3D9B6 /* Yamada.swift in Sources */,
+				B091EE8926D2464A00C3D9B6 /* Bachelor.swift in Sources */,
 				B0CAA31B26A096860088E054 /* JumpCommand.swift in Sources */,
 				B091EE7E26D2420D00C3D9B6 /* IteratorViewController.swift in Sources */,
 			);
