@@ -6,7 +6,7 @@
 //
 
 /// レシーバー
-protocol Receiver: AnyObject {
+protocol Receiver {
     /// 名前
     var name: String { get }
     /// 実行

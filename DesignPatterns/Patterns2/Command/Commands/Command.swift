@@ -6,7 +6,7 @@
 //
 
 /// Commandプロトコル
-protocol Command: AnyObject {
+protocol Command {
     /// レシーバー
     var receiver: Receiver { get }
     /// 実行
