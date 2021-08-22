@@ -35,6 +35,8 @@
 		B091EE7626CD57BE00C3D9B6 /* SelfIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE7526CD57BE00C3D9B6 /* SelfIntroduction.swift */; };
 		B091EE7826CD5A0700C3D9B6 /* Tanaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE7726CD5A0700C3D9B6 /* Tanaka.swift */; };
 		B091EE7A26CD5A5400C3D9B6 /* Yamada.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE7926CD5A5400C3D9B6 /* Yamada.swift */; };
+		B091EE7E26D2420D00C3D9B6 /* IteratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE7D26D2420D00C3D9B6 /* IteratorViewController.swift */; };
+		B091EE8026D2422800C3D9B6 /* IteratorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B091EE7F26D2422800C3D9B6 /* IteratorViewController.storyboard */; };
 		B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */; };
 		B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */; };
 		B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A382684DB1E0001BBE8 /* ViewController.swift */; };
@@ -148,6 +150,8 @@
 		B091EE7526CD57BE00C3D9B6 /* SelfIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroduction.swift; sourceTree = "<group>"; };
 		B091EE7726CD5A0700C3D9B6 /* Tanaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tanaka.swift; sourceTree = "<group>"; };
 		B091EE7926CD5A5400C3D9B6 /* Yamada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yamada.swift; sourceTree = "<group>"; };
+		B091EE7D26D2420D00C3D9B6 /* IteratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorViewController.swift; sourceTree = "<group>"; };
+		B091EE7F26D2422800C3D9B6 /* IteratorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IteratorViewController.storyboard; sourceTree = "<group>"; };
 		B0A90A312684DB1E0001BBE8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -399,6 +403,8 @@
 				B0CAA31626A092BF0088E054 /* Patterns2 */,
 				B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */,
 				B0A90A382684DB1E0001BBE8 /* ViewController.swift */,
+				B091EE7D26D2420D00C3D9B6 /* IteratorViewController.swift */,
+				B091EE7F26D2422800C3D9B6 /* IteratorViewController.storyboard */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -769,6 +775,7 @@
 				B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */,
 				B0CAA31526A092410088E054 /* CommandViewController.storyboard in Resources */,
 				B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */,
+				B091EE8026D2422800C3D9B6 /* IteratorViewController.storyboard in Resources */,
 				B0A90A3C2684DB1E0001BBE8 /* Main.storyboard in Resources */,
 				B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */,
 			);
@@ -873,6 +880,7 @@
 				B077EB0426917D8200089303 /* ObserverViewController.swift in Sources */,
 				B091EE7A26CD5A5400C3D9B6 /* Yamada.swift in Sources */,
 				B0CAA31B26A096860088E054 /* JumpCommand.swift in Sources */,
+				B091EE7E26D2420D00C3D9B6 /* IteratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
