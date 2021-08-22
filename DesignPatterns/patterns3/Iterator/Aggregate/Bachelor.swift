@@ -5,6 +5,7 @@
 //  Created by ta9yamakawa on 2021/08/22.
 //
 
+/// 学部生
 final class Bachelor: Aggregate {
     /// Model
     private var models = [BachelorModel]()

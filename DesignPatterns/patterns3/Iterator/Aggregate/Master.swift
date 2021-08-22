@@ -5,6 +5,7 @@
 //  Created by ta9yamakawa on 2021/08/22.
 //
 
+/// 修士生
 final class Master: Aggregate {
     /// Model
     private var models = [MasterModel]()
