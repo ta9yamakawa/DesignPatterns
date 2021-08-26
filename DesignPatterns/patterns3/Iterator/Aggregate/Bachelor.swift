@@ -8,7 +8,7 @@
 /// 学部生
 final class Bachelor: Aggregate {
     /// Model
-    private var models = [BachelorModel]()
+    var models = [BachelorModel]()
 
     init() {
         models.append(BachelorModel(name: "山田",
@@ -28,6 +28,6 @@ final class Bachelor: Aggregate {
     }
 
     func createIterator() -> Iterator {
-        return BachelorIterator(models: models)
+        return BachelorIterator(bachelor: self)
     }
 }

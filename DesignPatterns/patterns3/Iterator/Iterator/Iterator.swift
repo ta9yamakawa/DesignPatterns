@@ -10,5 +10,5 @@ protocol Iterator {
     /// 次の要素があるか
     func hasNext() -> Bool
     /// 次の要素を取得する
-    func next() -> StudentModel
+    func next() -> StudentModel?
 }

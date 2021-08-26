@@ -8,7 +8,7 @@
 /// 修士生
 final class Master: Aggregate {
     /// Model
-    private var models = [MasterModel]()
+    var models = [MasterModel]()
 
     init() {
         models.append(MasterModel(name: "田中",
@@ -28,6 +28,6 @@ final class Master: Aggregate {
     }
 
     func createIterator() -> Iterator {
-        return MasterIterator(models: models)
+        return MasterIterator(master: self)
     }
 }

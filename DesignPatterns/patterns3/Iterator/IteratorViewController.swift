@@ -33,7 +33,9 @@ private extension IteratorViewController {
     /// - Parameter iterator: Iterator
     func listUpStudents(from iterator: Iterator) {
         while iterator.hasNext() {
-            let model = iterator.next()
+            guard let model = iterator.next() else {
+                return
+            }
             print(model.name + " " + String(model.age) + "歳です。\n")
             print(model.universityName + "出身です。\n")
             print(model.motivation)

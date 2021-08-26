@@ -7,22 +7,28 @@
 
 /// 修士生用イテレーター
 final class MasterIterator: Iterator {
-    /// モデル
-    private var models = [MasterModel]()
+    /// 修士生
+    private var master: Master?
     /// インデックス
     private var index = 0
 
-    init(models: [MasterModel]) {
-        self.models = models
+    init(master: Master) {
+        self.master = master
     }
 
     func hasNext() -> Bool {
+        guard let models = master?.models else {
+            return false
+        }
         return !(index >= models.count)
     }
 
-    func next() -> StudentModel {
-        let master = models[index]
+    func next() -> StudentModel? {
+        guard let models = master?.models else {
+            return nil
+        }
+        let model = models[index]
         index += 1
-        return master
+        return model
     }
 }
