@@ -27,6 +27,7 @@ final class MasterIterator: Iterator {
         guard let models = master?.models else {
             return nil
         }
+        
         let model = models[index]
         index += 1
         return model
