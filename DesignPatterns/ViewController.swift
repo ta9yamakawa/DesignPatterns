@@ -101,6 +101,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
-    
+
+    @IBAction func didTapCompositeButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "CompositeViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? CompositeViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 

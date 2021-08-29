@@ -46,6 +46,8 @@
 		B091EE9226D2472C00C3D9B6 /* BachelorIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE9126D2472C00C3D9B6 /* BachelorIterator.swift */; };
 		B091EE9426D2474400C3D9B6 /* MasterIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE9326D2474400C3D9B6 /* MasterIterator.swift */; };
 		B091EE9726D27CA800C3D9B6 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE9626D27CA800C3D9B6 /* StudentModel.swift */; };
+		B091EE9B26DBDD6D00C3D9B6 /* CompositeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EE9A26DBDD6D00C3D9B6 /* CompositeViewController.swift */; };
+		B091EE9D26DBDD9200C3D9B6 /* CompositeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B091EE9C26DBDD9200C3D9B6 /* CompositeViewController.storyboard */; };
 		B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */; };
 		B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */; };
 		B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A382684DB1E0001BBE8 /* ViewController.swift */; };
@@ -170,6 +172,8 @@
 		B091EE9126D2472C00C3D9B6 /* BachelorIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BachelorIterator.swift; sourceTree = "<group>"; };
 		B091EE9326D2474400C3D9B6 /* MasterIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterIterator.swift; sourceTree = "<group>"; };
 		B091EE9626D27CA800C3D9B6 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		B091EE9A26DBDD6D00C3D9B6 /* CompositeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeViewController.swift; sourceTree = "<group>"; };
+		B091EE9C26DBDD9200C3D9B6 /* CompositeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CompositeViewController.storyboard; sourceTree = "<group>"; };
 		B0A90A312684DB1E0001BBE8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A90A342684DB1E0001BBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A90A362684DB1E0001BBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -393,6 +397,8 @@
 			isa = PBXGroup;
 			children = (
 				B091EE8626D2460700C3D9B6 /* Iterator */,
+				B091EE9A26DBDD6D00C3D9B6 /* CompositeViewController.swift */,
+				B091EE9C26DBDD9200C3D9B6 /* CompositeViewController.storyboard */,
 			);
 			path = patterns3;
 			sourceTree = "<group>";
@@ -844,6 +850,7 @@
 				B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */,
 				B091EE8026D2422800C3D9B6 /* IteratorViewController.storyboard in Resources */,
 				B0A90A3C2684DB1E0001BBE8 /* Main.storyboard in Resources */,
+				B091EE9D26DBDD9200C3D9B6 /* CompositeViewController.storyboard in Resources */,
 				B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -883,6 +890,7 @@
 				B077EB0826917FBD00089303 /* Subject.swift in Sources */,
 				B0E3AF6E269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift in Sources */,
 				B091EE7626CD57BE00C3D9B6 /* SelfIntroduction.swift in Sources */,
+				B091EE9B26DBDD6D00C3D9B6 /* CompositeViewController.swift in Sources */,
 				B077EB1726937A3A00089303 /* DecoratorViewController.swift in Sources */,
 				B077EB242694942D00089303 /* Seaweed.swift in Sources */,
 				B091EE7826CD5A0700C3D9B6 /* Tanaka.swift in Sources */,
