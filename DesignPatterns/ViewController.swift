@@ -93,6 +93,14 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapIteratorButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "IteratorViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? IteratorViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
     
 }
 
