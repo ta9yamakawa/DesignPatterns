@@ -17,7 +17,7 @@ final class CompositeViewController: UIViewController {
     }
 }
 
-private extension  CompositeViewController {
+private extension CompositeViewController {
     /// 家族の設定
     func setupFamily() {
         let tanakaFamily = Family(familyName: "田中")
