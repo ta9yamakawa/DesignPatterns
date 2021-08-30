@@ -10,7 +10,7 @@ import Foundation
 /// 個人（leafに該当する）
 final class Person: Component {
     /// 氏名
-    var name: String
+    private let name: String
 
     init(name: String) {
         self.name = name

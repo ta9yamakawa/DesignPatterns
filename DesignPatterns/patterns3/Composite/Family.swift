@@ -19,11 +19,10 @@ final class Family: Component {
     }
 
     func listUp() {
-        print("\(familyName)さん一家\n")
+        print("\(familyName)家\n")
 
         for person in family {
             person.listUp()
         }
-        print("====================")
     }
 }
