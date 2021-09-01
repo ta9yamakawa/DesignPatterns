@@ -69,6 +69,8 @@
 		B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A772684E0D70001BBE8 /* Pikachu.swift */; };
 		B0A90A7A2684E1BD0001BBE8 /* Charizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A90A792684E1BD0001BBE8 /* Charizard.swift */; };
 		B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A90A7B2684E5680001BBE8 /* StrategyViewController.storyboard */; };
+		B0AB865726DFE0190034E3AC /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB865626DFE0190034E3AC /* StateViewController.swift */; };
+		B0AB865926DFE0270034E3AC /* StateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AB865826DFE0270034E3AC /* StateViewController.storyboard */; };
 		B0CAA307269DE6E10088E054 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA306269DE6E10088E054 /* SingletonViewController.swift */; };
 		B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */; };
 		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
@@ -204,6 +206,8 @@
 		B0A90A772684E0D70001BBE8 /* Pikachu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pikachu.swift; sourceTree = "<group>"; };
 		B0A90A792684E1BD0001BBE8 /* Charizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charizard.swift; sourceTree = "<group>"; };
 		B0A90A7B2684E5680001BBE8 /* StrategyViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StrategyViewController.storyboard; sourceTree = "<group>"; };
+		B0AB865626DFE0190034E3AC /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		B0AB865826DFE0270034E3AC /* StateViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StateViewController.storyboard; sourceTree = "<group>"; };
 		B0CAA306269DE6E10088E054 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton2ViewController.swift; sourceTree = "<group>"; };
 		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
@@ -402,6 +406,8 @@
 		B091EE8526D245FB00C3D9B6 /* patterns3 */ = {
 			isa = PBXGroup;
 			children = (
+				B0AB865626DFE0190034E3AC /* StateViewController.swift */,
+				B0AB865826DFE0270034E3AC /* StateViewController.storyboard */,
 				B091EE9E26DBDE6B00C3D9B6 /* Composite */,
 				B091EE8626D2460700C3D9B6 /* Iterator */,
 			);
@@ -859,6 +865,7 @@
 				B091EE7326CD56A600C3D9B6 /* TemplateMethodViewController.storyboard in Resources */,
 				B0E5245D26B98F5F00BBBA94 /* AdaptorViewController.storyboard in Resources */,
 				B0E3AF392695FFB500FE8B73 /* FactoryViewController.storyboard in Resources */,
+				B0AB865926DFE0270034E3AC /* StateViewController.storyboard in Resources */,
 				B077EB0626917DA000089303 /* ObserverViewController.storyboard in Resources */,
 				B0A90A3E2684DB210001BBE8 /* Assets.xcassets in Resources */,
 				B077EB1926937A5A00089303 /* DecoratorViewController.storyboard in Resources */,
@@ -908,6 +915,7 @@
 				B0E3AF6E269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift in Sources */,
 				B091EE7626CD57BE00C3D9B6 /* SelfIntroduction.swift in Sources */,
 				B091EE9B26DBDD6D00C3D9B6 /* CompositeViewController.swift in Sources */,
+				B0AB865726DFE0190034E3AC /* StateViewController.swift in Sources */,
 				B077EB1726937A3A00089303 /* DecoratorViewController.swift in Sources */,
 				B077EB242694942D00089303 /* Seaweed.swift in Sources */,
 				B091EE7826CD5A0700C3D9B6 /* Tanaka.swift in Sources */,

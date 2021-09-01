@@ -109,5 +109,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapStateButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "StateViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? StateViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 
