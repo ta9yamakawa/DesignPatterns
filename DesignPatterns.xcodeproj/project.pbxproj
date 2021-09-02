@@ -71,6 +71,10 @@
 		B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A90A7B2684E5680001BBE8 /* StrategyViewController.storyboard */; };
 		B0AB865726DFE0190034E3AC /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB865626DFE0190034E3AC /* StateViewController.swift */; };
 		B0AB865926DFE0270034E3AC /* StateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AB865826DFE0270034E3AC /* StateViewController.storyboard */; };
+		B0AB865E26E123960034E3AC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB865D26E123960034E3AC /* State.swift */; };
+		B0AB866126E124230034E3AC /* ParkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866026E124230034E3AC /* ParkingState.swift */; };
+		B0AB866326E1249F0034E3AC /* RunningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866226E1249F0034E3AC /* RunningState.swift */; };
+		B0AB866526E124E80034E3AC /* BackState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866426E124E80034E3AC /* BackState.swift */; };
 		B0CAA307269DE6E10088E054 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA306269DE6E10088E054 /* SingletonViewController.swift */; };
 		B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */; };
 		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
@@ -208,6 +212,10 @@
 		B0A90A7B2684E5680001BBE8 /* StrategyViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StrategyViewController.storyboard; sourceTree = "<group>"; };
 		B0AB865626DFE0190034E3AC /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
 		B0AB865826DFE0270034E3AC /* StateViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StateViewController.storyboard; sourceTree = "<group>"; };
+		B0AB865D26E123960034E3AC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		B0AB866026E124230034E3AC /* ParkingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingState.swift; sourceTree = "<group>"; };
+		B0AB866226E1249F0034E3AC /* RunningState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningState.swift; sourceTree = "<group>"; };
+		B0AB866426E124E80034E3AC /* BackState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackState.swift; sourceTree = "<group>"; };
 		B0CAA306269DE6E10088E054 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton2ViewController.swift; sourceTree = "<group>"; };
 		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
@@ -406,10 +414,9 @@
 		B091EE8526D245FB00C3D9B6 /* patterns3 */ = {
 			isa = PBXGroup;
 			children = (
-				B0AB865626DFE0190034E3AC /* StateViewController.swift */,
-				B0AB865826DFE0270034E3AC /* StateViewController.storyboard */,
 				B091EE9E26DBDE6B00C3D9B6 /* Composite */,
 				B091EE8626D2460700C3D9B6 /* Iterator */,
+				B0AB865F26E123AE0034E3AC /* State */,
 			);
 			path = patterns3;
 			sourceTree = "<group>";
@@ -554,6 +561,27 @@
 				B0A90A732684DF690001BBE8 /* Pokemon.swift */,
 			);
 			path = Pokemon;
+			sourceTree = "<group>";
+		};
+		B0AB865F26E123AE0034E3AC /* State */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB866626E125210034E3AC /* State */,
+				B0AB865826DFE0270034E3AC /* StateViewController.storyboard */,
+				B0AB865626DFE0190034E3AC /* StateViewController.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		B0AB866626E125210034E3AC /* State */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB866426E124E80034E3AC /* BackState.swift */,
+				B0AB866026E124230034E3AC /* ParkingState.swift */,
+				B0AB866226E1249F0034E3AC /* RunningState.swift */,
+				B0AB865D26E123960034E3AC /* State.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 		B0CAA305269B64830088E054 /* Creator */ = {
@@ -913,6 +941,7 @@
 				B0E3AF59269B568300FE8B73 /* Sauce.swift in Sources */,
 				B077EB0826917FBD00089303 /* Subject.swift in Sources */,
 				B0E3AF6E269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift in Sources */,
+				B0AB865E26E123960034E3AC /* State.swift in Sources */,
 				B091EE7626CD57BE00C3D9B6 /* SelfIntroduction.swift in Sources */,
 				B091EE9B26DBDD6D00C3D9B6 /* CompositeViewController.swift in Sources */,
 				B0AB865726DFE0190034E3AC /* StateViewController.swift in Sources */,
@@ -932,6 +961,7 @@
 				B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */,
 				B091EE9226D2472C00C3D9B6 /* BachelorIterator.swift in Sources */,
 				B0E5245B26B98F3F00BBBA94 /* AdaptorViewController.swift in Sources */,
+				B0AB866126E124230034E3AC /* ParkingState.swift in Sources */,
 				B091EE5E26C91FC000C3D9B6 /* SmartSpeaker.swift in Sources */,
 				B0A90A782684E0D70001BBE8 /* Pikachu.swift in Sources */,
 				B0CAA32A26AF12630088E054 /* Receiver.swift in Sources */,
@@ -947,6 +977,7 @@
 				B091EE8426D245B700C3D9B6 /* MasterModel.swift in Sources */,
 				B091EE5726C9180500C3D9B6 /* FacadeViewController.swift in Sources */,
 				B0E3AF372695FFA300FE8B73 /* FactoryViewController.swift in Sources */,
+				B0AB866526E124E80034E3AC /* BackState.swift in Sources */,
 				B0A90A6A2684DD7A0001BBE8 /* FlyBehavior.swift in Sources */,
 				B0E3AF6B269B5EEE00FE8B73 /* Okonomiyaki2.swift in Sources */,
 				B0E3AF412697553800FE8B73 /* HiroshimaOkonomiyakiStore.swift in Sources */,
@@ -977,6 +1008,7 @@
 				B091EE6426C9210100C3D9B6 /* Light.swift in Sources */,
 				B091EEA226DBE13100C3D9B6 /* Family.swift in Sources */,
 				B0A90A372684DB1E0001BBE8 /* SceneDelegate.swift in Sources */,
+				B0AB866326E1249F0034E3AC /* RunningState.swift in Sources */,
 				B077EB102691823F00089303 /* Paul.swift in Sources */,
 				B0E5245F26B990D500BBBA94 /* BaseballPlayer.swift in Sources */,
 				B091EEA426DBE43500C3D9B6 /* Person.swift in Sources */,
