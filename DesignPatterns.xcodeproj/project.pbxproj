@@ -81,6 +81,10 @@
 		B0AB866F26E7A1E30034E3AC /* BeatObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866E26E7A1E30034E3AC /* BeatObserver.swift */; };
 		B0AB867126E7A21D0034E3AC /* BPMObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB867026E7A21D0034E3AC /* BPMObserver.swift */; };
 		B0AB867326E7A2640034E3AC /* BeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB867226E7A2640034E3AC /* BeatModel.swift */; };
+		B0AB867626E7A9090034E3AC /* ControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB867526E7A9090034E3AC /* ControllerInterface.swift */; };
+		B0AB867826E7A96F0034E3AC /* BeatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB867726E7A96F0034E3AC /* BeatController.swift */; };
+		B0AB867B26E7AA810034E3AC /* DJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB867A26E7AA810034E3AC /* DJView.swift */; };
+		B0AB867D26E7AB8C0034E3AC /* DJView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0AB867C26E7AB8C0034E3AC /* DJView.xib */; };
 		B0CAA307269DE6E10088E054 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA306269DE6E10088E054 /* SingletonViewController.swift */; };
 		B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */; };
 		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
@@ -228,6 +232,10 @@
 		B0AB866E26E7A1E30034E3AC /* BeatObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatObserver.swift; sourceTree = "<group>"; };
 		B0AB867026E7A21D0034E3AC /* BPMObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMObserver.swift; sourceTree = "<group>"; };
 		B0AB867226E7A2640034E3AC /* BeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatModel.swift; sourceTree = "<group>"; };
+		B0AB867526E7A9090034E3AC /* ControllerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerInterface.swift; sourceTree = "<group>"; };
+		B0AB867726E7A96F0034E3AC /* BeatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatController.swift; sourceTree = "<group>"; };
+		B0AB867A26E7AA810034E3AC /* DJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJView.swift; sourceTree = "<group>"; };
+		B0AB867C26E7AB8C0034E3AC /* DJView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJView.xib; sourceTree = "<group>"; };
 		B0CAA306269DE6E10088E054 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton2ViewController.swift; sourceTree = "<group>"; };
 		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
@@ -602,12 +610,40 @@
 			children = (
 				B0AB866926E7A0490034E3AC /* CompoundViewController.storyboard */,
 				B0AB866726E7A0180034E3AC /* CompoundViewController.swift */,
-				B0AB866C26E7A1100034E3AC /* BeatModelInterface.swift */,
-				B0AB867226E7A2640034E3AC /* BeatModel.swift */,
-				B0AB866E26E7A1E30034E3AC /* BeatObserver.swift */,
-				B0AB867026E7A21D0034E3AC /* BPMObserver.swift */,
+				B0AB867926E7AA250034E3AC /* Controller */,
+				B0AB867426E7A81F0034E3AC /* Model */,
+				B0AB867E26E7B59D0034E3AC /* View */,
 			);
 			path = Compound;
+			sourceTree = "<group>";
+		};
+		B0AB867426E7A81F0034E3AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB867226E7A2640034E3AC /* BeatModel.swift */,
+				B0AB866C26E7A1100034E3AC /* BeatModelInterface.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0AB867926E7AA250034E3AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB867726E7A96F0034E3AC /* BeatController.swift */,
+				B0AB867526E7A9090034E3AC /* ControllerInterface.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B0AB867E26E7B59D0034E3AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB866E26E7A1E30034E3AC /* BeatObserver.swift */,
+				B0AB867026E7A21D0034E3AC /* BPMObserver.swift */,
+				B0AB867A26E7AA810034E3AC /* DJView.swift */,
+				B0AB867C26E7AB8C0034E3AC /* DJView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B0CAA305269B64830088E054 /* Creator */ = {
@@ -924,6 +960,7 @@
 				B077EB0626917DA000089303 /* ObserverViewController.storyboard in Resources */,
 				B0A90A3E2684DB210001BBE8 /* Assets.xcassets in Resources */,
 				B077EB1926937A5A00089303 /* DecoratorViewController.storyboard in Resources */,
+				B0AB867D26E7AB8C0034E3AC /* DJView.xib in Resources */,
 				B0A90A7C2684E5680001BBE8 /* StrategyViewController.storyboard in Resources */,
 				B0CAA31526A092410088E054 /* CommandViewController.storyboard in Resources */,
 				B0CAA30D269DE74B0088E054 /* Singleton2ViewController.storyboard in Resources */,
@@ -962,6 +999,7 @@
 				B077EB0A269180D800089303 /* Observer.swift in Sources */,
 				B0A90A392684DB1E0001BBE8 /* ViewController.swift in Sources */,
 				B091EE8D26D2468900C3D9B6 /* Aggregate.swift in Sources */,
+				B0AB867826E7A96F0034E3AC /* BeatController.swift in Sources */,
 				B0E3AF512697581500FE8B73 /* KansaiMentaikoOkonomiyaki.swift in Sources */,
 				B077EB2026948FD600089303 /* Decorator.swift in Sources */,
 				B0CAA31D26A096D70088E054 /* FireballCommand.swift in Sources */,
@@ -984,6 +1022,7 @@
 				B0E3AF57269B55DE00FE8B73 /* OkonomiyakiIngredientFactory.swift in Sources */,
 				B0E3AF72269B603500FE8B73 /* OkonomiyakiStore2.swift in Sources */,
 				B0CAA310269DEEE50088E054 /* PiggyBank.swift in Sources */,
+				B0AB867B26E7AA810034E3AC /* DJView.swift in Sources */,
 				B077EB0E269181ED00089303 /* John.swift in Sources */,
 				B0E3AF4F2697580B00FE8B73 /* KansaiCheeseOkonomiyaki.swift in Sources */,
 				B0A90A762684DF940001BBE8 /* FlyType.swift in Sources */,
@@ -1053,6 +1092,7 @@
 				B0E524A126C044A400BBBA94 /* AcePitcher.swift in Sources */,
 				B0CAA31926A0963B0088E054 /* Command.swift in Sources */,
 				B077EB0426917D8200089303 /* ObserverViewController.swift in Sources */,
+				B0AB867626E7A9090034E3AC /* ControllerInterface.swift in Sources */,
 				B091EE7A26CD5A5400C3D9B6 /* Yamada.swift in Sources */,
 				B091EE8926D2464A00C3D9B6 /* Bachelor.swift in Sources */,
 				B0CAA31B26A096860088E054 /* JumpCommand.swift in Sources */,

@@ -5,7 +5,7 @@
 //  Created by ta9yamakawa on 2021/09/07.
 //
 
-/// BeatModelプロトコル
+/// Model用プロトコル
 protocol BeatModelInterface {
     func on()
     func off()

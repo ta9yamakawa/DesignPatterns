@@ -6,7 +6,7 @@
 //
 
 /// BeatObserver
-protocol BeatObserver {
+protocol BeatObserver: AnyObject {
     var name: String { get }
     func updateBeat()
 }
