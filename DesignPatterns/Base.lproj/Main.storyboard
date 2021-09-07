@@ -172,13 +172,27 @@
                                     <action selector="didTapStateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qJR-7E-Fh1"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LO-Ij-udK">
+                                <rect key="frame" x="147" y="712" width="120" height="34"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.71372549019999998" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="cFO-tC-RP4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Compound"/>
+                                <connections>
+                                    <action selector="didTapCompound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XUl-It-VSy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lWn-yd-Ugt" firstAttribute="top" secondItem="DzJ-0E-84F" secondAttribute="bottom" constant="20" id="6hA-R0-oJE"/>
+                            <constraint firstItem="4LO-Ij-udK" firstAttribute="top" secondItem="YJk-Pn-3d4" secondAttribute="bottom" constant="20" id="8Jb-uv-jsS"/>
                             <constraint firstItem="YJk-Pn-3d4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Qs-ri-Nkp"/>
                             <constraint firstItem="o1b-HU-42F" firstAttribute="top" secondItem="HXn-JT-igm" secondAttribute="bottom" constant="20" id="ACx-Uq-qHa"/>
+                            <constraint firstItem="4LO-Ij-udK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BdP-tM-FnP"/>
                             <constraint firstItem="MGr-GN-FLG" firstAttribute="top" secondItem="o1b-HU-42F" secondAttribute="bottom" constant="20" id="FFK-Jw-XEF"/>
                             <constraint firstItem="J7X-u2-wmx" firstAttribute="top" secondItem="o1b-HU-42F" secondAttribute="bottom" constant="20" id="ORy-1Y-n1E"/>
                             <constraint firstItem="ctw-uQ-IZc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SvL-Pg-uon"/>

@@ -117,5 +117,13 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
+
+    @IBAction func didTapCompound(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "CompoundViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? CompoundViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 

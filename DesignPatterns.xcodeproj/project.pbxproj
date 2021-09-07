@@ -75,6 +75,8 @@
 		B0AB866126E124230034E3AC /* ParkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866026E124230034E3AC /* ParkingState.swift */; };
 		B0AB866326E1249F0034E3AC /* RunningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866226E1249F0034E3AC /* RunningState.swift */; };
 		B0AB866526E124E80034E3AC /* BackState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866426E124E80034E3AC /* BackState.swift */; };
+		B0AB866826E7A0180034E3AC /* CompoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866726E7A0180034E3AC /* CompoundViewController.swift */; };
+		B0AB866A26E7A0490034E3AC /* CompoundViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AB866926E7A0490034E3AC /* CompoundViewController.storyboard */; };
 		B0CAA307269DE6E10088E054 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA306269DE6E10088E054 /* SingletonViewController.swift */; };
 		B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */; };
 		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
@@ -216,6 +218,8 @@
 		B0AB866026E124230034E3AC /* ParkingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingState.swift; sourceTree = "<group>"; };
 		B0AB866226E1249F0034E3AC /* RunningState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningState.swift; sourceTree = "<group>"; };
 		B0AB866426E124E80034E3AC /* BackState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackState.swift; sourceTree = "<group>"; };
+		B0AB866726E7A0180034E3AC /* CompoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundViewController.swift; sourceTree = "<group>"; };
+		B0AB866926E7A0490034E3AC /* CompoundViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CompoundViewController.storyboard; sourceTree = "<group>"; };
 		B0CAA306269DE6E10088E054 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton2ViewController.swift; sourceTree = "<group>"; };
 		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
@@ -415,6 +419,7 @@
 			isa = PBXGroup;
 			children = (
 				B091EE9E26DBDE6B00C3D9B6 /* Composite */,
+				B0AB866B26E7A0AD0034E3AC /* Compound */,
 				B091EE8626D2460700C3D9B6 /* Iterator */,
 				B0AB865F26E123AE0034E3AC /* State */,
 			);
@@ -582,6 +587,15 @@
 				B0AB865D26E123960034E3AC /* State.swift */,
 			);
 			path = State;
+			sourceTree = "<group>";
+		};
+		B0AB866B26E7A0AD0034E3AC /* Compound */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB866926E7A0490034E3AC /* CompoundViewController.storyboard */,
+				B0AB866726E7A0180034E3AC /* CompoundViewController.swift */,
+			);
+			path = Compound;
 			sourceTree = "<group>";
 		};
 		B0CAA305269B64830088E054 /* Creator */ = {
@@ -893,6 +907,7 @@
 				B091EE7326CD56A600C3D9B6 /* TemplateMethodViewController.storyboard in Resources */,
 				B0E5245D26B98F5F00BBBA94 /* AdaptorViewController.storyboard in Resources */,
 				B0E3AF392695FFB500FE8B73 /* FactoryViewController.storyboard in Resources */,
+				B0AB866A26E7A0490034E3AC /* CompoundViewController.storyboard in Resources */,
 				B0AB865926DFE0270034E3AC /* StateViewController.storyboard in Resources */,
 				B077EB0626917DA000089303 /* ObserverViewController.storyboard in Resources */,
 				B0A90A3E2684DB210001BBE8 /* Assets.xcassets in Resources */,
@@ -941,6 +956,7 @@
 				B0E3AF59269B568300FE8B73 /* Sauce.swift in Sources */,
 				B077EB0826917FBD00089303 /* Subject.swift in Sources */,
 				B0E3AF6E269B5FBA00FE8B73 /* KansaiOkonomiyakiStore2.swift in Sources */,
+				B0AB866826E7A0180034E3AC /* CompoundViewController.swift in Sources */,
 				B0AB865E26E123960034E3AC /* State.swift in Sources */,
 				B091EE7626CD57BE00C3D9B6 /* SelfIntroduction.swift in Sources */,
 				B091EE9B26DBDD6D00C3D9B6 /* CompositeViewController.swift in Sources */,
