@@ -77,6 +77,10 @@
 		B0AB866526E124E80034E3AC /* BackState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866426E124E80034E3AC /* BackState.swift */; };
 		B0AB866826E7A0180034E3AC /* CompoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866726E7A0180034E3AC /* CompoundViewController.swift */; };
 		B0AB866A26E7A0490034E3AC /* CompoundViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AB866926E7A0490034E3AC /* CompoundViewController.storyboard */; };
+		B0AB866D26E7A1100034E3AC /* BeatModelInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866C26E7A1100034E3AC /* BeatModelInterface.swift */; };
+		B0AB866F26E7A1E30034E3AC /* BeatObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB866E26E7A1E30034E3AC /* BeatObserver.swift */; };
+		B0AB867126E7A21D0034E3AC /* BPMObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB867026E7A21D0034E3AC /* BPMObserver.swift */; };
+		B0AB867326E7A2640034E3AC /* BeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB867226E7A2640034E3AC /* BeatModel.swift */; };
 		B0CAA307269DE6E10088E054 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA306269DE6E10088E054 /* SingletonViewController.swift */; };
 		B0CAA309269DE6F30088E054 /* Singleton2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */; };
 		B0CAA30B269DE7010088E054 /* SingletonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */; };
@@ -220,6 +224,10 @@
 		B0AB866426E124E80034E3AC /* BackState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackState.swift; sourceTree = "<group>"; };
 		B0AB866726E7A0180034E3AC /* CompoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundViewController.swift; sourceTree = "<group>"; };
 		B0AB866926E7A0490034E3AC /* CompoundViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CompoundViewController.storyboard; sourceTree = "<group>"; };
+		B0AB866C26E7A1100034E3AC /* BeatModelInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatModelInterface.swift; sourceTree = "<group>"; };
+		B0AB866E26E7A1E30034E3AC /* BeatObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatObserver.swift; sourceTree = "<group>"; };
+		B0AB867026E7A21D0034E3AC /* BPMObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMObserver.swift; sourceTree = "<group>"; };
+		B0AB867226E7A2640034E3AC /* BeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatModel.swift; sourceTree = "<group>"; };
 		B0CAA306269DE6E10088E054 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		B0CAA308269DE6F30088E054 /* Singleton2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton2ViewController.swift; sourceTree = "<group>"; };
 		B0CAA30A269DE7010088E054 /* SingletonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingletonViewController.storyboard; sourceTree = "<group>"; };
@@ -594,6 +602,10 @@
 			children = (
 				B0AB866926E7A0490034E3AC /* CompoundViewController.storyboard */,
 				B0AB866726E7A0180034E3AC /* CompoundViewController.swift */,
+				B0AB866C26E7A1100034E3AC /* BeatModelInterface.swift */,
+				B0AB867226E7A2640034E3AC /* BeatModel.swift */,
+				B0AB866E26E7A1E30034E3AC /* BeatObserver.swift */,
+				B0AB867026E7A21D0034E3AC /* BPMObserver.swift */,
 			);
 			path = Compound;
 			sourceTree = "<group>";
@@ -962,6 +974,7 @@
 				B091EE9B26DBDD6D00C3D9B6 /* CompositeViewController.swift in Sources */,
 				B0AB865726DFE0190034E3AC /* StateViewController.swift in Sources */,
 				B077EB1726937A3A00089303 /* DecoratorViewController.swift in Sources */,
+				B0AB867326E7A2640034E3AC /* BeatModel.swift in Sources */,
 				B077EB242694942D00089303 /* Seaweed.swift in Sources */,
 				B091EE7826CD5A0700C3D9B6 /* Tanaka.swift in Sources */,
 				B091EE6026C91FD900C3D9B6 /* TV.swift in Sources */,
@@ -1000,11 +1013,13 @@
 				B091EE9426D2474400C3D9B6 /* MasterIterator.swift in Sources */,
 				B0E3AF4B269757D300FE8B73 /* KansaiOkonimiyakiStore.swift in Sources */,
 				B091EE8B26D2466C00C3D9B6 /* Master.swift in Sources */,
+				B0AB866F26E7A1E30034E3AC /* BeatObserver.swift in Sources */,
 				B0E3AF3F2697535B00FE8B73 /* Topping.swift in Sources */,
 				B0A90A7A2684E1BD0001BBE8 /* Charizard.swift in Sources */,
 				B0E3AF472697572100FE8B73 /* HiroshimaMentaikoOkonomiyaki.swift in Sources */,
 				B077EB132691837D00089303 /* NetfilxSubject.swift in Sources */,
 				B0CAA31326A092380088E054 /* CommandViewController.swift in Sources */,
+				B0AB866D26E7A1100034E3AC /* BeatModelInterface.swift in Sources */,
 				B0CAA32026A0974A0088E054 /* CommandInvoker.swift in Sources */,
 				B0CAA32826AF10FF0088E054 /* Mario.swift in Sources */,
 				B0E3AF432697565C00FE8B73 /* HiroshimaMixedOkonomiyaki.swift in Sources */,
@@ -1017,6 +1032,7 @@
 				B091EE7126CD568E00C3D9B6 /* TemplateMethodViewController.swift in Sources */,
 				B0A90A352684DB1E0001BBE8 /* AppDelegate.swift in Sources */,
 				B0E5246326B9946200BBBA94 /* PowerHitterAdaptor.swift in Sources */,
+				B0AB867126E7A21D0034E3AC /* BPMObserver.swift in Sources */,
 				B0A90A6D2684DDD30001BBE8 /* FlyNormal.swift in Sources */,
 				B0E5245626B1B5C400BBBA94 /* CommandType.swift in Sources */,
 				B077EB1D26948ECC00089303 /* Ramen.swift in Sources */,
