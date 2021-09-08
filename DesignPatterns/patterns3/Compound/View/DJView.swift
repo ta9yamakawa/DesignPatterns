@@ -35,6 +35,8 @@ final class DJView: UIView, BPMObserver {
     @IBOutlet private weak var startButton: UIButton!
     /// 停止ボタン
     @IBOutlet private weak var stopButton: UIButton!
+    /// 設定ボタン
+    @IBOutlet private weak var setButton: UIButton!
 
 
     override init(frame: CGRect) {
@@ -84,11 +86,13 @@ private extension DJView {
             stopButton.isEnabled = true
             increaseButton.isEnabled = true
             decreaseButton.isEnabled = true
+            setButton.isEnabled = true
         } else {
             startButton.isEnabled = true
             stopButton.isEnabled = false
             increaseButton.isEnabled = false
             decreaseButton.isEnabled = false
+            setButton.isEnabled = false
         }
     }
 
@@ -102,6 +106,7 @@ private extension DJView {
             return
         }
         controller.setBPM(with: bpm)
+        bpmInputField.endEditing(true)
     }
 
     @IBAction func didTapDecreaseButton(_ sender: Any) {

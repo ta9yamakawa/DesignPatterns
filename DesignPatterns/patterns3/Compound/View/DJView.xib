@@ -14,6 +14,7 @@
                 <outlet property="bpmLabel" destination="8Sc-gB-uFU" id="cfh-H9-2Ow"/>
                 <outlet property="decreaseButton" destination="ebF-Zf-ioF" id="UR1-iX-5vj"/>
                 <outlet property="increaseButton" destination="7H7-mx-RuE" id="zMp-gR-iTC"/>
+                <outlet property="setButton" destination="dAU-XZ-jDn" id="ncC-sF-2mW"/>
                 <outlet property="startButton" destination="TM7-lW-uV1" id="YQT-FH-9Yc"/>
                 <outlet property="stopButton" destination="Ydu-O7-Jk1" id="3RC-xQ-FgP"/>
             </connections>
@@ -132,7 +133,7 @@
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAU-XZ-jDn">
                     <rect key="frame" x="262.5" y="225" width="39" height="35"/>
-                    <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    <color key="backgroundColor" systemColor="labelColor"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                     <state key="normal" title="設定">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -171,11 +172,11 @@
         <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
         <image name="play.circle.fill" catalog="system" width="128" height="121"/>
         <image name="play.slash.fill" catalog="system" width="116" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray4Color">
-            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
