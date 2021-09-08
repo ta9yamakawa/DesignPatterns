@@ -1,5 +1,5 @@
 //
-//  BeatModel.swift
+//  BPMModel.swift
 //  DesignPatterns
 //
 //  Created by ta9yamakawa on 2021/09/07.
@@ -8,12 +8,12 @@
 import Foundation
 
 /// BeatModel
-final class BeatModel: BeatModelInterface {
+final class BPMModel: BPMModelInterface {
 
+    /// BPM
     private var bpm = 90
 
-    private var beatObservers = [BeatObserver]()
-
+    /// BPMオブザーバー配列
     private var bpmObservers = [BPMObserver]()
 
     func on() {
@@ -33,17 +33,6 @@ final class BeatModel: BeatModelInterface {
         return bpm
     }
 
-    func registerObserver(_ observer: BeatObserver) {
-        beatObservers.append(observer)
-    }
-
-    func removeObserver(_ observer: BeatObserver) {
-        guard let index = beatObservers.firstIndex(where: { $0.name == observer.name }) else {
-            return
-        }
-        beatObservers.remove(at: index)
-    }
-
     func registerObserver(_ observer: BPMObserver) {
         bpmObservers.append(observer)
     }
@@ -58,19 +47,7 @@ final class BeatModel: BeatModelInterface {
 
 
 // MARK: Private Methods
-private extension BeatModel {
-
-    func beatEvent() {
-        notifyBeatObservers()
-    }
-
-    /// BeatObserversに通知
-    func notifyBeatObservers() {
-        for observer in beatObservers {
-            observer.updateBeat()
-        }
-    }
-
+private extension BPMModel {
     /// BPMObserversに通知
     func notifyBPMObservers() {
         for observer in bpmObservers {

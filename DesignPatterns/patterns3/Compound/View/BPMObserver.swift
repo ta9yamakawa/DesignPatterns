@@ -6,7 +6,9 @@
 //
 
 /// BPMObserver
-protocol BPMObserver: AnyObject {
+protocol BPMObserver {
+    /// 名前（本来必要ではないが、indexを取得するためにとりあえず用意した）
     var name: String { get }
+    /// BPMを更新
     func updateBPM()
 }

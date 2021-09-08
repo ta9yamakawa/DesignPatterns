@@ -1,5 +1,5 @@
 //
-//  BeatController.swift
+//  BPMController.swift
 //  DesignPatterns
 //
 //  Created by ta9yamakawa on 2021/09/07.
@@ -7,11 +7,13 @@
 
 import Foundation
 
-final class BeatController: ControllerInterface {
+/// BPM Controller
+final class BPMController: ControllerInterface {
 
-    private let model: BeatModelInterface
+    /// Model
+    private let model: BPMModelInterface
 
-    init(model: BeatModelInterface) {
+    init(model: BPMModelInterface) {
         self.model = model
     }
 

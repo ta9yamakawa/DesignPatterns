@@ -8,7 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DJView" customModule="DesignPatterns" customModuleProvider="target">
+            <connections>
+                <outlet property="bpmInputField" destination="d6l-rE-n2k" id="vMp-1u-x63"/>
+                <outlet property="bpmLabel" destination="8Sc-gB-uFU" id="cfh-H9-2Ow"/>
+                <outlet property="decreaseButton" destination="ebF-Zf-ioF" id="UR1-iX-5vj"/>
+                <outlet property="increaseButton" destination="7H7-mx-RuE" id="zMp-gR-iTC"/>
+                <outlet property="startButton" destination="TM7-lW-uV1" id="YQT-FH-9Yc"/>
+                <outlet property="stopButton" destination="Ydu-O7-Jk1" id="3RC-xQ-FgP"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -20,10 +29,10 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="90" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sc-gB-uFU">
-                    <rect key="frame" x="157" y="110" width="100" height="48"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="停止中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sc-gB-uFU">
+                    <rect key="frame" x="137" y="110" width="140" height="48"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="100" id="Yq7-5y-TpO"/>
+                        <constraint firstAttribute="width" constant="140" id="Yq7-5y-TpO"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                     <nil key="textColor"/>
@@ -42,7 +51,7 @@
                         <constraint firstAttribute="width" constant="120" id="RTx-Jh-WPc"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits" textContentType="tel"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                 </textField>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BPM：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvp-qS-PdD">
                     <rect key="frame" x="50" y="229" width="67.5" height="26.5"/>
@@ -65,6 +74,9 @@
                                     <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                     <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                     <state key="normal" backgroundImage="arrowshape.turn.up.backward.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="didTapDecreaseButton:" destination="-1" eventType="touchUpInside" id="zBe-ve-CXf"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7H7-mx-RuE">
                                     <rect key="frame" x="45" y="1" width="40" height="38"/>
@@ -75,6 +87,9 @@
                                     <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                     <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                     <state key="normal" backgroundImage="arrowshape.turn.up.right.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="didTapIncreaseButton:" destination="-1" eventType="touchUpInside" id="ee7-hK-z9R"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -91,6 +106,9 @@
                                     <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                     <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                     <state key="normal" backgroundImage="play.circle.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="didTapStartButton:" destination="-1" eventType="touchUpInside" id="jYr-xO-OE5"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydu-O7-Jk1">
                                     <rect key="frame" x="45" y="1.5" width="40" height="38"/>
@@ -104,6 +122,9 @@
                                     <state key="normal" backgroundImage="play.slash.fill" catalog="system">
                                         <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
+                                    <connections>
+                                        <action selector="didTapStopButton:" destination="-1" eventType="touchUpInside" id="qbn-Gq-ik7"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -116,6 +137,9 @@
                     <state key="normal" title="設定">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="didTapSetBPMButton:" destination="-1" eventType="touchUpInside" id="Vkb-Pc-evU"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
