@@ -93,6 +93,37 @@ private extension ViewController {
         }
         present(viewController, animated: true)
     }
-    
+
+    @IBAction func didTapIteratorButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "IteratorViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? IteratorViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
+
+    @IBAction func didTapCompositeButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "CompositeViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? CompositeViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
+
+    @IBAction func didTapStateButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "StateViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? StateViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
+
+    @IBAction func didTapCompound(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "CompoundViewController", bundle: nil)
+        guard let viewController = storyboard.instantiateInitialViewController() as? CompoundViewController else {
+            return
+        }
+        present(viewController, animated: true)
+    }
 }
 
