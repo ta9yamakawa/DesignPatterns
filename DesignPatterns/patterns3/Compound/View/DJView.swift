@@ -15,7 +15,7 @@ final class DJView: UIView, BPMObserver {
     var name: String = "DJ"
 
     /// Controller
-    private var controller: BPMController?
+    private var controller: ControllerInterface?
 
     // MARK: Constants
 
